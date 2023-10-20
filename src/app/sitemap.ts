@@ -1,0 +1,27 @@
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+	return [
+		{
+			url: "https://acme.com",
+			lastModified: new Date(),
+			priority: 1,
+		},
+		{
+			url: "https://acme.com/about",
+			lastModified: new Date(),
+		},
+		{
+			url: "https://acme.com/projects",
+			lastModified: new Date(),
+		},
+		{
+			url: "https://acme.com/contact",
+			lastModified: new Date(),
+		},
+		{
+			url: "https://acme.com/testimonials",
+			lastModified: new Date(),
+		},
+	];
+}

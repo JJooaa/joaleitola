@@ -1,4 +1,4 @@
-export const navlinks = {
+export const links = {
 	home: {
 		path: "/",
 		name: "Home",
@@ -18,5 +18,13 @@ export const navlinks = {
 	testimonials: {
 		path: "/testimonials",
 		name: "Testimonials",
+	},
+	github: {
+		path: "https://github.com/jjooaa",
+		name: "Github",
+	},
+	linkedIn: {
+		path: "https://www.linkedin.com/in/joa-leitola-478515212/",
+		name: "LinkedIn",
 	},
 };

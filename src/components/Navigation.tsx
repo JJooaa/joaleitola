@@ -9,7 +9,7 @@ import {
 	navigationMenuTriggerStyle,
 } from "./ui/navigation-menu";
 import { ModeToggle } from "./theme-toggle";
-import { navlinks } from "@/lib/consts";
+import { links } from "@/lib/consts";
 import Image from "next/image";
 import logo from "/public/logo.png";
 
@@ -24,24 +24,24 @@ export default function Navigation() {
 				height={45}
 			/>
 			<NavigationMenuList className="cursor-pointer mx-14">
-				<Link href={navlinks.home.path} legacyBehavior passHref>
+				<Link href={links.home.path} legacyBehavior passHref>
 					<NavigationMenuItem className={navigationMenuTriggerStyle()}>
-						{navlinks.home.name}
+						{links.home.name}
 					</NavigationMenuItem>
 				</Link>
-				<Link href={navlinks.projects.path} legacyBehavior passHref>
+				<Link href={links.projects.path} legacyBehavior passHref>
 					<NavigationMenuItem className={navigationMenuTriggerStyle()}>
-						{navlinks.projects.name}
+						{links.projects.name}
 					</NavigationMenuItem>
 				</Link>
-				<Link href={navlinks.contact.path} legacyBehavior passHref>
+				<Link href={links.contact.path} legacyBehavior passHref>
 					<NavigationMenuItem className={navigationMenuTriggerStyle()}>
-						{navlinks.contact.name}
+						{links.contact.name}
 					</NavigationMenuItem>
 				</Link>
-				<Link href={navlinks.testimonials.path} legacyBehavior passHref>
+				<Link href={links.testimonials.path} legacyBehavior passHref>
 					<NavigationMenuItem className={navigationMenuTriggerStyle()}>
-						{navlinks.testimonials.name}
+						{links.testimonials.name}
 					</NavigationMenuItem>
 				</Link>
 			</NavigationMenuList>
