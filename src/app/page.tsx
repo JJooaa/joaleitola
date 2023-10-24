@@ -10,21 +10,14 @@ import {
 import { links } from "@/lib/consts";
 import { cn } from "@/lib/utils";
 import { AtSign, Github } from "lucide-react";
-import { Metadata } from "next";
 import Link from "next/link";
-
-export const metadata: Metadata = {
-	title: "Joa Leitola - Full Stack Developer",
-	description:
-		"I am a full stack developer from Finland. I create beautiful and easy to use web experiences.Consulting and freelance work available. Contact me for more information.",
-};
 
 export default function Home() {
 	return (
 		<>
 			<section
 				id="hero"
-				className="container space-y-6 pt-6 md:pt-12 lg:py-32 pb-8 md:pb-12"
+				className="container space-y-6 pt-6 md:pt-12 lg:py-32 pb-8 md:pb-12 border-b-2"
 			>
 				<div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
 					<h1 className="text-3xl tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-bold">
@@ -57,32 +50,43 @@ export default function Home() {
 			</section>
 			<section
 				id="projects"
-				className="container py-8 md:py-12 lg:py-24 max-w-5xl"
+				className="container py-8 md:py-12 lg:py-24 max-w-5xl border-b-2"
 			>
 				<div className="flex flex-col gap-4">
 					<h2 className="text-2xl max-w-[64rem] tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
 						I build all things web related.
 					</h2>
 					<p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
-						{`I've got a solid grasp of web development, and I'm pretty versatile
-						when it comes to connecting the dots and fixing tricky issues. My
-						jam is frontend development, especially with React.js and all the
-						cool stuff it comes with.`}
+						I&apos;ve got a solid grasp of web development, and I&apos;m pretty
+						versatile when it comes to connecting the dots and fixing tricky
+						issues. My jam is frontend development, especially with React.js and
+						all the cool stuff it comes with.
+					</p>
+					<p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
+						Check out some of the work
+						<Link
+							className={cn(buttonVariants({ variant: "link" }), "text-base")}
+							href={links.projects.path}
+						>
+							Here &rarr;
+						</Link>
 					</p>
 				</div>
 			</section>
 			<section
 				id="technologies"
-				className="container max-w-3xl py-8 md:py-12 lg:py-24 flex flex-row-reverse"
+				className="container max-w-3xl py-8 md:py-12 lg:py-24 flex flex-row-reverse border-b-2"
 			>
 				<div className="flex flex-col gap-4">
-					<h2 className="text-2xl max-w-[64rem] tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
-						{`Techonologies, if you're into that.`}
+					<h2 className="text-2xl max-w-[64rem] tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+						Tech I work with.
 					</h2>
-					<p className="leading-normal max-w-2xl text-muted-foreground sm:text-lg sm:leading-8">
-						{`Used these all quite a bit. There is more, but these are the big keywords where recruiters or customers might get a kick out of. It's not much but it's honest work.`}
+					<p className="leading-normal max-w-2xl text-muted-foreground sm:text-lg sm:leading-8 text-center">
+						Used these all quite a bit. There is more, but these are the big
+						keywords where recruiters or customers might get excited for.
+						It&apos;s not much but it&apos;s honest work.
 					</p>
-					<div className="flex flex-wrap gap-2 max-w-lg">
+					<div className="flex flex-wrap gap-2 max-w-lg justify-center mx-auto">
 						<Badge className="bg-blue-500">React.js</Badge>
 						<Badge className="bg-red-500">Next.js</Badge>
 						<Badge className="bg-cyan-500">TailwindCSS</Badge>
@@ -104,14 +108,16 @@ export default function Home() {
 					<h2 className="text-2xl max-w-[64rem] text-center tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
 						Why choose me?
 					</h2>
-					<div className="flex gap-8">
+					<div className="flex gap-8 flex-wrap justify-evenly">
 						<Card className="max-w-md">
 							<CardHeader>
 								<CardTitle>Modern Solutions</CardTitle>
 							</CardHeader>
 							<CardContent>
 								<CardDescription className="text-base">
-									{`I'm always up to date with the latest technologies. I'm not afraid to try new things and I'm always looking for ways to improve my workflow.`}
+									I&apos;m always up to date with the latest technologies.
+									I&apos;m not afraid to try new things and I&apos;m always
+									looking for ways to improve my workflow.
 								</CardDescription>
 							</CardContent>
 						</Card>
@@ -121,12 +127,58 @@ export default function Home() {
 							</CardHeader>
 							<CardContent>
 								<CardDescription className="text-base">
-									{`I've worked with clients from all over the world. I'm used to working with remote teams and I'm a great communicator.`}
+									I&apos;ve worked with clients from all over the world.
+									I&apos;m used to working with remote teams and I&apos;m a
+									great communicator.
+								</CardDescription>
+							</CardContent>
+						</Card>
+						<Card className="max-w-md">
+							<CardHeader>
+								<CardTitle>Progressive Development</CardTitle>
+							</CardHeader>
+							<CardContent>
+								<CardDescription className="text-base">
+									Starting by creating an initial working version of an app. If
+									you feel satisfied with the product, we keep implementing new
+									features. If not, we can always go back to the drawing board.
+								</CardDescription>
+							</CardContent>
+						</Card>
+						<Card className="max-w-md">
+							<CardHeader>
+								<CardTitle>Easy & Simple </CardTitle>
+							</CardHeader>
+							<CardContent>
+								<CardDescription className="text-base">
+									I have workflows and tools in place to make sure that the
+									experience working with me is easy and simple for the both of
+									us. Giving you the most value for your money.
 								</CardDescription>
 							</CardContent>
 						</Card>
 					</div>
 				</div>
+			</section>
+			<section
+				id="contact"
+				className="container max-w-3xl py-8 md:py-12 lg:py-24 space-y-4 flex flex-col"
+			>
+				<h2 className="text-2xl text-center tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+					Interested? Let&apos;s talk!
+				</h2>
+				<p className="leading-normal max-w-2xl text-muted-foreground sm:text-lg sm:leading-8 text-center">
+					I&apos;m always excited to hear about new projects and ideas.
+				</p>
+				<Link
+					href={links.contact.path}
+					className={cn(
+						buttonVariants({ variant: "default" }),
+						"max-w-sm mx-auto"
+					)}
+				>
+					{links.contact.name}
+				</Link>
 			</section>
 		</>
 	);

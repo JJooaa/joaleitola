@@ -27,4 +27,8 @@ export const links = {
 		path: "https://www.linkedin.com/in/joa-leitola-478515212/",
 		name: "LinkedIn",
 	},
-};
+	workingWithMe: {
+		path: "/working-with-me",
+		name: "Working with me",
+	},
+} as const;
