@@ -15,10 +15,6 @@ export const links = {
 		path: "/projects",
 		name: "Projects",
 	},
-	testimonials: {
-		path: "/testimonials",
-		name: "Testimonials",
-	},
 	github: {
 		path: "https://github.com/jjooaa",
 		name: "Github",

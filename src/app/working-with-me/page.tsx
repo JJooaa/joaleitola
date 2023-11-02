@@ -1,11 +1,8 @@
 import { buttonVariants } from "@/components/ui/button";
 import { links } from "@/lib/consts";
 import { cn } from "@/lib/utils";
-import { MoveDown } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
-//
 export default function WorkingWithMe() {
 	return (
 		<section className="container">

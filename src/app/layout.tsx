@@ -9,55 +9,48 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://acme.com"),
-	title: {
-		template: "%s | Joa Leitola",
-		default: "Joa Leitola",
-	},
-	description: "Joa Leitola's personal website.",
-	keywords: [
-		"consulting",
-		"software",
-		"development",
-		"websites",
-		"web",
-		"applications",
-	],
-	alternates: {
-		canonical: "/",
-		languages: {
-			"en-US": "/en-US",
-			"fi-FI": "/fi-FI",
-		},
-	},
-	themeColor: [
-		{ media: "(prefers-color-scheme: light)", color: "cyan" },
-		{ media: "(prefers-color-scheme: dark)", color: "black" },
-	],
-	openGraph: {
-		images: "/og-image.png",
-	},
+  metadataBase: new URL("https://acme.com"),
+  title: {
+    template: "%s | Joa Leitola",
+    default: "Joa Leitola",
+  },
+  description: "Joa Leitola's personal website.",
+  keywords: [
+    "consulting",
+    "software",
+    "development",
+    "websites",
+    "web",
+    "applications",
+  ],
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "fi-FI": "/fi-FI",
+    },
+  },
 };
 
 export default function RootLayout({
-	children,
+  children,
 }: {
-	children: React.ReactNode;
+  children: React.ReactNode;
 }) {
-	return (
-		<html lang="en" suppressHydrationWarning>
-			<body className={cn("bg-background antialiased p-8", inter.className)}>
-				<ThemeProvider
-					attribute="class"
-					defaultTheme="system"
-					enableSystem
-					disableTransitionOnChange
-				>
-					<Navigation />
-					{children}
-					<Analytics />
-				</ThemeProvider>
-			</body>
-		</html>
-	);
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className={cn("bg-background antialiased p-8", inter.className)}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navigation />
+          {children}
+          <Analytics />
+        </ThemeProvider>
+      </body>
+    </html>
+  );
 }

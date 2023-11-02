@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
+import { Code2, Gem, HeartHandshake, Recycle } from "lucide-react";
 import {
 	Card,
 	CardContent,
@@ -111,7 +112,10 @@ export default function Home() {
 					<div className="flex gap-8 flex-wrap justify-evenly">
 						<Card className="max-w-md">
 							<CardHeader>
-								<CardTitle>Modern Solutions</CardTitle>
+								<CardTitle className="flex gap-4">
+									<Code2 />
+									Modern Solutions
+								</CardTitle>
 							</CardHeader>
 							<CardContent>
 								<CardDescription className="text-base">
@@ -123,7 +127,10 @@ export default function Home() {
 						</Card>
 						<Card className="max-w-md">
 							<CardHeader>
-								<CardTitle>Consulting experience</CardTitle>
+								<CardTitle className="flex gap-4">
+									<Gem />
+									Consulting experience
+								</CardTitle>
 							</CardHeader>
 							<CardContent>
 								<CardDescription className="text-base">
@@ -135,7 +142,10 @@ export default function Home() {
 						</Card>
 						<Card className="max-w-md">
 							<CardHeader>
-								<CardTitle>Progressive Development</CardTitle>
+								<CardTitle className="flex gap-4">
+									<Recycle />
+									Progressive Development
+								</CardTitle>
 							</CardHeader>
 							<CardContent>
 								<CardDescription className="text-base">
@@ -147,7 +157,10 @@ export default function Home() {
 						</Card>
 						<Card className="max-w-md">
 							<CardHeader>
-								<CardTitle>Easy & Simple </CardTitle>
+								<CardTitle className="flex gap-4">
+									<HeartHandshake />
+									Easy & Simple
+								</CardTitle>
 							</CardHeader>
 							<CardContent>
 								<CardDescription className="text-base">

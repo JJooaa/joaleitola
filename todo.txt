@@ -1,0 +1,7 @@
+1. Github Actions eg, ci/cd pipelines
+	- Linting
+	- Styles
+
+2. Opengraphs and metadata
+
+3. 
