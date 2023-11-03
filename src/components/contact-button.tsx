@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
-import { Link } from "lucide-react";
 import { buttonVariants } from "./ui/button";
+import Link from "next/link";
 
 type ContactButtonProps = {
   icon: React.ReactNode;
@@ -13,7 +13,7 @@ export function ContactButton({ icon, href, text }: ContactButtonProps) {
     <Link
       className={cn(
         buttonVariants({ variant: "outline" }),
-        "flex gap-2 justify-between"
+        "flex gap-2 justify-between",
       )}
       href={href}
       target="_blank"

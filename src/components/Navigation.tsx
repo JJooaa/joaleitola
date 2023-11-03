@@ -14,6 +14,7 @@ import logo from "/public/logo.png";
 import { Card } from "./ui/card";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { NavigationMobile } from "./navigation-mobile";
 
 export default function Navigation() {
   const currentPath = usePathname();
@@ -23,7 +24,20 @@ export default function Navigation() {
   };
 
   return (
-    <Card className="p-4 w-max self-center container">
+    <>
+      <NavigationDesktop isActive={isActive} />
+      <NavigationMobile isActive={isActive} />
+    </>
+  );
+}
+
+export function NavigationDesktop({
+  isActive,
+}: {
+  isActive: (path: string) => true | undefined;
+}) {
+  return (
+    <Card className="p-4 w-max self-center container hidden md:flex">
       <NavigationMenu className="gap-4">
         <Image
           src={logo}
@@ -37,7 +51,7 @@ export default function Navigation() {
             <NavigationMenuItem
               className={cn(
                 navigationMenuTriggerStyle(),
-                isActive(links.home.path) && "text-blue-500 underline"
+                isActive(links.home.path) && "text-blue-500 underline",
               )}
             >
               {links.home.name}
@@ -47,7 +61,7 @@ export default function Navigation() {
             <NavigationMenuItem
               className={cn(
                 navigationMenuTriggerStyle(),
-                isActive(links.projects.path) && "text-blue-500 underline"
+                isActive(links.projects.path) && "text-blue-500 underline",
               )}
             >
               {links.projects.name}
@@ -57,17 +71,18 @@ export default function Navigation() {
             <NavigationMenuItem
               className={cn(
                 navigationMenuTriggerStyle(),
-                isActive(links.workingWithMe.path) && "text-blue-500 underline"
+                isActive(links.workingWithMe.path) && "text-blue-500 underline",
               )}
             >
               {links.workingWithMe.name}
             </NavigationMenuItem>
           </Link>
+
           <Link href={links.contact.path} legacyBehavior passHref>
             <NavigationMenuItem
               className={cn(
                 navigationMenuTriggerStyle(),
-                isActive(links.contact.path) && "text-blue-500 underline"
+                isActive(links.contact.path) && "text-blue-500 underline",
               )}
             >
               {links.contact.name}
