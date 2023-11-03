@@ -1,25 +1,5 @@
 import { ProjectCard } from "@/components/project-card";
-
-const projects = [
-  {
-    name: "Project 1",
-    description: "Project 1 description",
-    image: "https://placehold.co/600x400",
-    link: "/projects/project-1",
-  },
-  {
-    name: "Project 2",
-    description: "Project 2 description",
-    image: "https://placehold.co/600x400",
-    link: "/projects/project-2",
-  },
-  {
-    name: "Project 3",
-    description: "Project 3 description",
-    image: "https://placehold.co/600x400",
-    link: "/projects/project-3",
-  },
-] as const;
+import { projects } from "@/lib/consts";
 
 export default function Projects() {
   return (
@@ -33,10 +13,9 @@ export default function Projects() {
         planned so the experience working with me is as smooth as possible.
         Giving you the most value for your money.
       </p>
-      <div className="grid grid-cols-2 gap-8 mx-auto justify-items-center pt-6 md:pt-16 lg:py-18 pb-4 md:pb-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto justify-items-center pt-6 md:pt-16 lg:py-18 pb-4 md:pb-6">
         {projects.map((project) => (
           <ProjectCard
-            image={project.image}
             key={project.name}
             title={project.name}
             description={project.description}

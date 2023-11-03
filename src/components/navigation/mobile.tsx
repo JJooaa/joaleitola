@@ -1,22 +1,20 @@
 "use client";
 
 import Image from "next/image";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import {
   Sheet,
   SheetClose,
   SheetContent,
   SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTrigger,
-} from "./ui/sheet";
+} from "../ui/sheet";
 import { Menu } from "lucide-react";
-import { navigationMenuTriggerStyle } from "./ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { links } from "@/lib/consts";
 import Link from "next/link";
-import { ModeToggle } from "./theme-toggle";
+import { ModeToggle } from "../theme/theme-toggle";
 
 export function NavigationMobile({
   isActive,
@@ -49,7 +47,7 @@ export function NavigationMobile({
               href={links.home.path}
               className={cn(
                 isActive(links.home.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4",
+                  "text-blue-500 underline text-xl underline-offset-4"
               )}
             >
               {links.home.name}
@@ -60,7 +58,7 @@ export function NavigationMobile({
               href={links.projects.path}
               className={cn(
                 isActive(links.projects.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4",
+                  "text-blue-500 underline text-xl underline-offset-4"
               )}
             >
               {links.projects.name}
@@ -71,7 +69,7 @@ export function NavigationMobile({
               href={links.workingWithMe.path}
               className={cn(
                 isActive(links.workingWithMe.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4",
+                  "text-blue-500 underline text-xl underline-offset-4"
               )}
             >
               {links.workingWithMe.name}
@@ -82,7 +80,7 @@ export function NavigationMobile({
               href={links.contact.path}
               className={cn(
                 isActive(links.contact.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4",
+                  "text-blue-500 underline text-xl underline-offset-4"
               )}
             >
               {links.contact.name}

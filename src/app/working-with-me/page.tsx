@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function WorkingWithMe() {
   return (
-    <section className="container">
-      <div className="space-y-6 pt-6 md:pt-12 lg:py-32 pb-8 md:pb-12 border-b">
+    <>
+      <div className="space-y-6 container pt-6 md:pt-12 lg:py-32 pb-8 md:pb-12 border-b">
         <h2 className="text-2xl text-center tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
           Roadmap of working with me
         </h2>
@@ -22,7 +22,7 @@ export default function WorkingWithMe() {
         <h3 className="flex gap-10 text-xl tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl font-bold">
           1. <span>Let&apos;s Begin our Journey with a Personal Meeting!</span>
         </h3>
-        <p className="pl-12 leading-normal text-muted-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
+        <p className="pl-4 md:pl-12 leading-normal text-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
           Our process starts with our initial contact, and from there,
           we&apos;ll arrange a meeting to get to know each other and establish a
           strong foundation.
@@ -47,7 +47,7 @@ export default function WorkingWithMe() {
         <h3 className="flex gap-8 text-xl tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl font-bold">
           2. <span>Active Development Phase</span>
         </h3>
-        <p className="pl-12 leading-normal text-muted-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
+        <p className="pl-4 md:pl-12 leading-normal text-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
           I believe in a dynamic and customer-centric approach to web
           development, and when you work with me, it&apos;s not just a
           transaction; it&apos;s a partnership. I&apos;ve chosen
@@ -73,7 +73,7 @@ export default function WorkingWithMe() {
         <h3 className="flex gap-8 text-xl tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl font-bold">
           3. <span>Unlocking Your Vision - The MVP and Beyond!</span>
         </h3>
-        <p className="pl-12 leading-normal text-muted-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
+        <p className="pl-4 md:pl-12 leading-normal text-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
           Once we&apos;ve laid the groundwork and worked closely together,
           we&apos;ll reach a pivotal moment where your MVP (minimum viable
           product) comes to fruition. This is the initial, essential version of
@@ -105,12 +105,12 @@ export default function WorkingWithMe() {
           href={links.contact.path}
           className={cn(
             buttonVariants({ variant: "default" }),
-            "max-w-sm mx-auto",
+            "max-w-sm mx-auto"
           )}
         >
           {links.contact.name}
         </Link>
       </section>
-    </section>
+    </>
   );
 }
