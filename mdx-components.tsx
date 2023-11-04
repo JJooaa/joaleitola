@@ -1,4 +1,4 @@
-import type { MDXComponents } from "mdx/types";
+import type { MDXComponents } from "mdx/types"
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -23,7 +23,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       </h4>
     ),
     p: ({ children }) => (
-      <p className="leading-7 [&:not(:first-child)]:mt-6 text-foreground">
+      <p className="leading-7 text-foreground [&:not(:first-child)]:mt-6">
         {children}
       </p>
     ),
@@ -44,5 +44,5 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       </blockquote>
     ),
     ...components,
-  };
+  }
 }

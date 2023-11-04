@@ -1,4 +1,4 @@
-import { Code2, Gem, HeartHandshake, Recycle } from "lucide-react";
+import { Code2, Gem, HeartHandshake, Recycle } from "lucide-react"
 
 export const links = {
   home: {
@@ -17,6 +17,10 @@ export const links = {
     path: "/projects",
     name: "Projects",
   },
+  workingWithMe: {
+    path: "/maximizing-results",
+    name: "Maximizing Results",
+  },
   github: {
     path: "https://github.com/jjooaa",
     name: "Github",
@@ -25,11 +29,7 @@ export const links = {
     path: "https://www.linkedin.com/in/joa-leitola-478515212/",
     name: "LinkedIn",
   },
-  workingWithMe: {
-    path: "/working-with-me",
-    name: "Working with me",
-  },
-} as const;
+} as const
 
 export const cardData = [
   {
@@ -56,7 +56,7 @@ export const cardData = [
     description:
       "I have workflows and tools in place to make sure that the experience working with me is easy and simple for the both of us. Giving you the most value for your money.",
   },
-] as const;
+] as const
 
 export const projects = [
   {
@@ -76,4 +76,4 @@ export const projects = [
     description: "Project 3 description",
     link: "/projects/property-management-platform",
   },
-] as const;
+] as const

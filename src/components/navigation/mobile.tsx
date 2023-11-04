@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
-import Image from "next/image";
-import { Button } from "../ui/button";
+import Image from "next/image"
+import { Button } from "../ui/button"
 import {
   Sheet,
   SheetClose,
@@ -9,21 +9,21 @@ import {
   SheetDescription,
   SheetHeader,
   SheetTrigger,
-} from "../ui/sheet";
-import { Menu } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { links } from "@/lib/consts";
-import Link from "next/link";
-import { ModeToggle } from "../theme/theme-toggle";
+} from "../ui/sheet"
+import { Menu } from "lucide-react"
+import { cn } from "@/lib/utils"
+import { links } from "@/lib/consts"
+import Link from "next/link"
+import { ModeToggle } from "../theme/theme-toggle"
 
 export function NavigationMobile({
   isActive,
 }: {
-  isActive: (path: string) => true | undefined;
+  isActive: (path: string) => true | undefined
 }) {
   return (
     <Sheet>
-      <div className="w-full flex md:hidden justify-end gap-4">
+      <div className="flex w-full justify-end gap-4 md:hidden">
         <ModeToggle />
         <SheetTrigger asChild>
           <Button variant="outline" size="icon">
@@ -41,13 +41,13 @@ export function NavigationMobile({
             height={45}
           />
         </SheetHeader>
-        <SheetDescription className="flex flex-col mt-10 gap-4">
+        <SheetDescription className="mt-10 flex flex-col gap-4">
           <SheetClose asChild>
             <Link
               href={links.home.path}
               className={cn(
                 isActive(links.home.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4"
+                  "text-xl text-blue-500 underline underline-offset-4"
               )}
             >
               {links.home.name}
@@ -58,7 +58,7 @@ export function NavigationMobile({
               href={links.projects.path}
               className={cn(
                 isActive(links.projects.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4"
+                  "text-xl text-blue-500 underline underline-offset-4"
               )}
             >
               {links.projects.name}
@@ -69,7 +69,7 @@ export function NavigationMobile({
               href={links.workingWithMe.path}
               className={cn(
                 isActive(links.workingWithMe.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4"
+                  "text-xl text-blue-500 underline underline-offset-4"
               )}
             >
               {links.workingWithMe.name}
@@ -80,7 +80,7 @@ export function NavigationMobile({
               href={links.contact.path}
               className={cn(
                 isActive(links.contact.path) &&
-                  "text-blue-500 underline text-xl underline-offset-4"
+                  "text-xl text-blue-500 underline underline-offset-4"
               )}
             >
               {links.contact.name}
@@ -89,5 +89,5 @@ export function NavigationMobile({
         </SheetDescription>
       </SheetContent>
     </Sheet>
-  );
+  )
 }

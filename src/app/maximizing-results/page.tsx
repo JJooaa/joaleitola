@@ -1,28 +1,29 @@
-import { buttonVariants } from "@/components/ui/button";
-import { links } from "@/lib/consts";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button"
+import { links } from "@/lib/consts"
+import { cn } from "@/lib/utils"
+import Link from "next/link"
 
-export default function WorkingWithMe() {
+export default function MaximizingResults() {
   return (
     <>
-      <div className="space-y-6 container pt-6 md:pt-12 lg:py-32 pb-8 md:pb-12 border-b">
-        <h2 className="text-2xl text-center tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
-          Roadmap of working with me
+      <div className="container space-y-6 border-b pb-8 pt-6 md:pb-12 md:pt-12 lg:py-32">
+        <h2 className="mx-auto max-w-[64rem] text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
+          Maximizing Results: Our Approach to Collaboration
         </h2>
-        <p className="max-w-[50rem] mx-auto leading-normal text-muted-foreground sm:text-xl sm:leading-8 text-center ">
-          On this page I&apos;ll outline the process of working with me. From
-          the first contact to the final delivery of the project. Everything is
-          planned so the experience working with me is as smooth as possible.
-          Giving you the most value for your money.
+        <p className="mx-auto max-w-[50rem] text-center leading-normal text-muted-foreground sm:text-xl sm:leading-8 ">
+          On this page, I&apos;ll guide you through our collaborative journey,
+          from our initial contact to the successful delivery of your project.
+          Discover how we plan each step to ensure your experience working with
+          me is not only seamless but also maximizes the value of your
+          investment.
         </p>
       </div>
 
-      <div className="space-y-6 pt-6 md:pt-16 lg:py-18 pb-4 md:pb-6 max-w-4xl mx-auto">
-        <h3 className="flex gap-10 text-xl tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl font-bold">
+      <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
+        <h3 className="flex gap-10 text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
           1. <span>Let&apos;s Begin our Journey with a Personal Meeting!</span>
         </h3>
-        <p className="pl-4 md:pl-12 leading-normal text-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
+        <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
           Our process starts with our initial contact, and from there,
           we&apos;ll arrange a meeting to get to know each other and establish a
           strong foundation.
@@ -43,11 +44,11 @@ export default function WorkingWithMe() {
         </p>
       </div>
 
-      <div className="space-y-6 pt-6 md:pt-16 lg:py-18 pb-4 md:pb-6 max-w-4xl mx-auto">
-        <h3 className="flex gap-8 text-xl tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl font-bold">
+      <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
+        <h3 className="flex gap-8 text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
           2. <span>Active Development Phase</span>
         </h3>
-        <p className="pl-4 md:pl-12 leading-normal text-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
+        <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
           I believe in a dynamic and customer-centric approach to web
           development, and when you work with me, it&apos;s not just a
           transaction; it&apos;s a partnership. I&apos;ve chosen
@@ -69,11 +70,11 @@ export default function WorkingWithMe() {
         </p>
       </div>
 
-      <div className="space-y-6 pt-6 md:pt-16 lg:py-18 pb-4 md:pb-6 max-w-4xl mx-auto">
-        <h3 className="flex gap-8 text-xl tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl font-bold">
+      <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
+        <h3 className="flex gap-8 text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
           3. <span>Unlocking Your Vision - The MVP and Beyond!</span>
         </h3>
-        <p className="pl-4 md:pl-12 leading-normal text-foreground sm:text-lg sm:leading-8 border-l-2 ml-4">
+        <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
           Once we&apos;ve laid the groundwork and worked closely together,
           we&apos;ll reach a pivotal moment where your MVP (minimum viable
           product) comes to fruition. This is the initial, essential version of
@@ -92,12 +93,12 @@ export default function WorkingWithMe() {
       </div>
       <section
         id="contact"
-        className="container max-w-3xl py-8 md:py-12 lg:py-24 space-y-4 flex flex-col"
+        className="container flex max-w-3xl flex-col space-y-4 py-8 md:py-12 lg:py-24"
       >
-        <h2 className="text-2xl text-center tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+        <h2 className="text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
           Interested? Let&apos;s talk!
         </h2>
-        <p className="leading-normal max-w-2xl text-muted-foreground sm:text-lg sm:leading-8 text-center">
+        <p className="max-w-2xl text-center leading-normal text-muted-foreground sm:text-lg sm:leading-8">
           Ready to get started? I&apos;m excited to hear from you! Click the
           button below to get in touch.
         </p>
@@ -105,12 +106,12 @@ export default function WorkingWithMe() {
           href={links.contact.path}
           className={cn(
             buttonVariants({ variant: "default" }),
-            "max-w-sm mx-auto"
+            "mx-auto max-w-sm"
           )}
         >
           {links.contact.name}
         </Link>
       </section>
     </>
-  );
+  )
 }

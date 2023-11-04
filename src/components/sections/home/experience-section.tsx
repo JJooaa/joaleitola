@@ -1,16 +1,16 @@
-import { buttonVariants } from "@/components/ui/button";
-import { links } from "@/lib/consts";
-import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button"
+import { links } from "@/lib/consts"
+import { cn } from "@/lib/utils"
+import Link from "next/link"
 
 export function ExperienceSection() {
   return (
     <section
       id="projects"
-      className="container py-8 md:py-12 lg:py-24 max-w-5xl border-b-2"
+      className="container max-w-5xl border-b-2 py-8 md:py-12 lg:py-24"
     >
       <div className="flex flex-col gap-4">
-        <h2 className="text-2xl max-w-[64rem] tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+        <h2 className="max-w-[64rem] text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
           I build all things web related.
         </h2>
         <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
@@ -30,5 +30,5 @@ export function ExperienceSection() {
         </p>
       </div>
     </section>
-  );
+  )
 }

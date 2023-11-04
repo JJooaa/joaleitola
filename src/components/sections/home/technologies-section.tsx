@@ -1,22 +1,22 @@
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/components/ui/badge"
 
 export function TechnologiesSection() {
   return (
     <section
       id="technologies"
-      className="container max-w-3xl py-8 md:py-12 lg:py-24 flex flex-row-reverse border-b-2"
+      className="container flex max-w-3xl flex-row-reverse border-b-2 py-8 md:py-12 lg:py-24"
     >
       <div className="flex flex-col gap-4">
-        <h2 className="text-2xl max-w-[64rem] tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center">
+        <h2 className="max-w-[64rem] text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
           Tech I work with.
         </h2>
-        <p className="leading-normal max-w-2xl text-muted-foreground sm:text-lg sm:leading-8 text-center">
+        <p className="max-w-2xl text-center leading-normal text-muted-foreground sm:text-lg sm:leading-8">
           Used these all quite a bit. There is more, but these are the big
           keywords where recruiters or customers might get excited for. The
           ecosystems are also tightly included when working with these
           technologies.
         </p>
-        <div className="flex flex-wrap gap-2 max-w-lg justify-center mx-auto">
+        <div className="mx-auto flex max-w-lg flex-wrap justify-center gap-2">
           <Badge className="bg-blue-500">React.js</Badge>
           <Badge className="bg-red-500">Next.js</Badge>
           <Badge className="bg-cyan-500">TailwindCSS</Badge>
@@ -30,5 +30,5 @@ export function TechnologiesSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }

@@ -1,27 +1,28 @@
-import { MetadataRoute } from "next";
+import { baseUrl } from "@/lib/baseUrl"
+import { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://acme.com",
+      url: baseUrl,
       lastModified: new Date(),
       priority: 1,
     },
     {
-      url: "https://acme.com/about",
+      url: baseUrl + "/about",
       lastModified: new Date(),
     },
     {
-      url: "https://acme.com/projects",
+      url: baseUrl + "/projects",
       lastModified: new Date(),
     },
     {
-      url: "https://acme.com/contact",
+      url: baseUrl + "/contact",
       lastModified: new Date(),
     },
     {
-      url: "https://acme.com/testimonials",
+      url: baseUrl + "/maximizing-results",
       lastModified: new Date(),
     },
-  ];
+  ]
 }

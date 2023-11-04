@@ -1,22 +1,22 @@
-import Image from "next/image";
+import Image from "next/image"
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
   navigationMenuTriggerStyle,
-} from "../ui/navigation-menu";
-import Link from "next/link";
-import { cn } from "@/lib/utils";
-import { links } from "@/lib/consts";
-import { ModeToggle } from "../theme/theme-toggle";
+} from "../ui/navigation-menu"
+import Link from "next/link"
+import { cn } from "@/lib/utils"
+import { links } from "@/lib/consts"
+import { ModeToggle } from "../theme/theme-toggle"
 
 export function NavigationDesktop({
   isActive,
 }: {
-  isActive: (path: string) => true | undefined;
+  isActive: (path: string) => true | undefined
 }) {
   return (
-    <NavigationMenu className="gap-4 mx-auto hidden md:flex">
+    <NavigationMenu className="mx-auto hidden gap-4 md:flex">
       <Image
         src="/logo.png"
         alt="Joa Leitola - JL"
@@ -24,7 +24,7 @@ export function NavigationDesktop({
         width={45}
         height={45}
       />
-      <NavigationMenuList className="cursor-pointer mx-14">
+      <NavigationMenuList className="mx-14 cursor-pointer">
         <Link href={links.home.path} legacyBehavior passHref>
           <NavigationMenuItem
             className={cn(
@@ -69,5 +69,5 @@ export function NavigationDesktop({
       </NavigationMenuList>
       <ModeToggle />
     </NavigationMenu>
-  );
+  )
 }
