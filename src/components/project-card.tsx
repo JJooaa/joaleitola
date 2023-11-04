@@ -33,7 +33,7 @@ export function ProjectCard({
           </Badge>
         ))}
       </CardContent>
-      <Link className="absolute inset-0" href={href}></Link>
+      <Link className="absolute inset-0" href={href} />
       <span className="sr-only">View Project</span>
     </Card>
   )

@@ -1,5 +1,12 @@
 import { ProjectCard } from "@/components/project-card"
 import { projects } from "@/lib/consts"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description:
+    "I am a full stack developer from Finland. I create beautiful and easy to use web experiences.Consulting and freelance work available. Contact me for more information.",
+}
 
 export default function Projects() {
   return (

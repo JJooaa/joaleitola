@@ -1,7 +1,14 @@
 import { buttonVariants } from "@/components/ui/button"
 import { links } from "@/lib/consts"
 import { cn } from "@/lib/utils"
+import { Metadata } from "next"
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "Maximize Results",
+  description:
+    "I am a full stack developer from Finland. I create beautiful and easy to use web experiences.Consulting and freelance work available. Contact me for more information.",
+}
 
 export default function MaximizingResults() {
   return (

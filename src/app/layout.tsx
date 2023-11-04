@@ -24,13 +24,6 @@ export const metadata: Metadata = {
     "web",
     "applications",
   ],
-  alternates: {
-    canonical: "/",
-    languages: {
-      "en-US": "/en-US",
-      "fi-FI": "/fi-FI",
-    },
-  },
 }
 
 export default function RootLayout({
