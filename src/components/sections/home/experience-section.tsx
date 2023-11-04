@@ -14,10 +14,12 @@ export function ExperienceSection() {
           I build all things web related.
         </h2>
         <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
-          I&apos;ve got a solid grasp of web development, and I&apos;m pretty
-          versatile when it comes to connecting the dots and fixing tricky
-          issues. My jam is frontend development, especially with React.js and
-          all the cool stuff it comes with.
+          I&apos;m pretty solid when it comes to web development. I really enjoy
+          working on the frontend, especially with Next.js/React.js and all the
+          cool stuff it brings to the table. It&apos;s my go-to stack for
+          crafting awesome user interfaces and experiences. I&apos;m always
+          learning and staying up-to-date with the latest tech to stay ahead in
+          this fast-paced industry.
         </p>
         <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
           Check out some of the work

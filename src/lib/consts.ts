@@ -71,6 +71,7 @@ export const projects = [
       "Nest.js",
       "Docker",
       "Google Cloud",
+      "TypeScript",
     ],
   },
   {
@@ -78,7 +79,7 @@ export const projects = [
     description:
       "I played a pivotal role in revolutionizing a service information system for social welfare clients and service providers. Our team enhanced efficiency and user-friendliness by optimizing search algorithms, database management, and UI design.",
     link: "/projects/service-information-systems-application",
-    technologies: ["Next.js", "ChakraUI", "Docker", "GCP"],
+    technologies: ["React.js", "MaterialUI", "Typescript"],
   },
   {
     name: "Property Management",
