@@ -1,15 +1,16 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import "./globals.css"
+import "../styles/globals.css"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme/theme-provider"
 import { Analytics } from "@vercel/analytics/react"
 import Navigation from "@/components/navigation/navigation"
+import { baseUrl } from "@/lib/baseUrl"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://acme.com"),
+  metadataBase: new URL(baseUrl),
   title: {
     template: "%s | Joa Leitola",
     default: "Joa Leitola",
