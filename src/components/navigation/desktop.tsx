@@ -13,7 +13,7 @@ import { ModeToggle } from "../theme/theme-toggle"
 export function NavigationDesktop({
   isActive,
 }: {
-  isActive: (path: string) => true | undefined
+  isActive: (path: string) => boolean
 }) {
   return (
     <NavigationMenu className="mx-auto hidden gap-4 md:flex">
@@ -29,7 +29,8 @@ export function NavigationDesktop({
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.home.path) && "text-blue-500 underline"
+              isActive(links.home.path) &&
+                "text-blue-500 underline underline-offset-2"
             )}
           >
             {links.home.name}
@@ -39,7 +40,8 @@ export function NavigationDesktop({
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.projects.path) && "text-blue-500 underline"
+              isActive(links.projects.path) &&
+                "text-blue-500 underline underline-offset-2"
             )}
           >
             {links.projects.name}
@@ -49,7 +51,8 @@ export function NavigationDesktop({
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.workingWithMe.path) && "text-blue-500 underline"
+              isActive(links.workingWithMe.path) &&
+                "text-blue-500 underline underline-offset-2"
             )}
           >
             {links.workingWithMe.name}
@@ -60,7 +63,8 @@ export function NavigationDesktop({
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.contact.path) && "text-blue-500 underline"
+              isActive(links.contact.path) &&
+                "text-blue-500 underline underline-offset-2"
             )}
           >
             {links.contact.name}

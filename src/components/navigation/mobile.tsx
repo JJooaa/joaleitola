@@ -19,7 +19,7 @@ import { ModeToggle } from "../theme/theme-toggle"
 export function NavigationMobile({
   isActive,
 }: {
-  isActive: (path: string) => true | undefined
+  isActive: (path: string) => boolean
 }) {
   return (
     <Sheet>
