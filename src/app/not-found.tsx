@@ -1,6 +1,12 @@
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import { Metadata } from "next"
 import Link from "next/link"
+
+export const metadata: Metadata = {
+  title: "Not Found",
+  description: "Could not find requested resource",
+}
 
 export default function NotFound() {
   return (

@@ -9,11 +9,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: baseUrl + "/about",
+      url: baseUrl + "/projects",
       lastModified: new Date(),
     },
     {
-      url: baseUrl + "/projects",
+      url: baseUrl + "/projects" + "/automotive-industry-web-app",
+      lastModified: new Date(),
+    },
+    {
+      url: baseUrl + "/projects" + "/property-management-platform",
+      lastModified: new Date(),
+    },
+    {
+      url: baseUrl + "/projects" + "/service-information-systems-application",
       lastModified: new Date(),
     },
     {
