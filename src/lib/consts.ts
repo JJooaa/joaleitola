@@ -62,18 +62,38 @@ export const projects = [
   {
     name: "Automotive Industry",
     description:
-      "I've been the go-to person for managing the client's application and handling all the code-related stuff. I've had the pleasure of working closely with the client, discussing their needs and making sure the platform aligns with what they're looking for.",
+      "I managed the client's application, improving search features, revamping the user interface with Next.js and ChakraUI, and optimizing the backend with Nest.js, Docker, and Google Cloud. Integrated multiple external APIs for added data.",
     link: "/projects/automotive-industry-web-app",
+    technologies: [
+      "React.js",
+      "Next.js",
+      "ChakraUI",
+      "Nest.js",
+      "Docker",
+      "Google Cloud",
+    ],
   },
   {
     name: "Service Informations",
     description:
-      "Our aim was to create a system that not only simplified the process but also improved the efficiency of the welfare sector.",
+      "I played a pivotal role in revolutionizing a service information system for social welfare clients and service providers. Our team enhanced efficiency and user-friendliness by optimizing search algorithms, database management, and UI design.",
     link: "/projects/service-information-systems-application",
+    technologies: ["Next.js", "ChakraUI", "Docker", "GCP"],
   },
   {
     name: "Property Management",
-    description: "Project 3 description",
+    description:
+      "I developed a seamless Finance/Banking Integration for a property management platform, enhancing financial monitoring. I also introduced advanced maintenance and repair planning features, improving property management efficiency.",
     link: "/projects/property-management-platform",
+    technologies: [
+      "React.js",
+      "Hasura",
+      "Nhost",
+      "PostgreSQL",
+      "GraphQL",
+      "Vite",
+      "MaterialUI",
+      "TypeScript",
+    ],
   },
 ] as const

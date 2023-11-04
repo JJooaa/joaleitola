@@ -8,18 +8,18 @@ export default function Projects() {
         Some of my projects
       </h2>
       <p className="mx-auto max-w-[50rem] text-center leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-        On this page I&apos;ll outline the process of working with me. From the
-        first contact to the final delivery of the project. Everything is
-        planned so the experience working with me is as smooth as possible.
-        Giving you the most value for your money.
+        This is where I showcase some of the software projects I&apos;ve worked
+        on. Take a look at the diverse range of creations, from apps to
+        websites, and get a feel for my coding experience.
       </p>
-      <div className="lg:py-18 mx-auto grid grid-cols-1 justify-items-center gap-8 pb-4 pt-6 md:grid-cols-2 md:pb-6 md:pt-16">
+      <div className="lg:py-18 mx-auto grid max-w-3xl grid-cols-1 justify-items-center gap-8 pb-4 pt-6 md:grid-cols-2 md:pb-6 md:pt-16">
         {projects.map((project) => (
           <ProjectCard
             key={project.name}
             title={project.name}
             description={project.description}
             href={project.link}
+            technologies={project.technologies}
           />
         ))}
       </div>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <div className="container space-y-6 pt-6 md:pt-12 lg:pt-32">
+      <div className="space-y-6 pt-6 md:container md:pt-12 lg:pt-32">
         <h2 className="text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
           Here&apos;s how you can reach me
         </h2>

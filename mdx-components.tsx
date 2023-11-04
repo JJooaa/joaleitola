@@ -3,7 +3,7 @@ import type { MDXComponents } from "mdx/types"
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     h1: ({ children }) => (
-      <h1 className="scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl">
+      <h1 className="scroll-m-20 text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl lg:text-5xl">
         {children}
       </h1>
     ),

@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function MaximizingResults() {
   return (
     <>
-      <div className="container space-y-6 border-b pb-8 pt-6 md:pb-12 md:pt-12 lg:py-32">
+      <div className="space-y-6 border-b pb-8 pt-6 md:container md:pb-12 md:pt-12 lg:py-32">
         <h2 className="mx-auto max-w-[64rem] text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
           Maximizing Results: Our Approach to Collaboration
         </h2>
@@ -20,7 +20,7 @@ export default function MaximizingResults() {
       </div>
 
       <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
-        <h3 className="flex gap-10 text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
+        <h3 className="flex gap-5 text-xl font-bold tracking-tighter sm:text-2xl md:gap-10 md:text-3xl lg:text-4xl">
           1. <span>Let&apos;s Begin our Journey with a Personal Meeting!</span>
         </h3>
         <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
@@ -45,7 +45,7 @@ export default function MaximizingResults() {
       </div>
 
       <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
-        <h3 className="flex gap-8 text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
+        <h3 className="flex gap-4 text-xl font-bold tracking-tighter sm:text-2xl md:gap-8 md:text-3xl lg:text-4xl">
           2. <span>Active Development Phase</span>
         </h3>
         <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
@@ -71,7 +71,7 @@ export default function MaximizingResults() {
       </div>
 
       <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
-        <h3 className="flex gap-8 text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
+        <h3 className="flex gap-4 text-xl font-bold tracking-tighter sm:text-2xl md:gap-8 md:text-3xl lg:text-4xl">
           3. <span>Unlocking Your Vision - The MVP and Beyond!</span>
         </h3>
         <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
