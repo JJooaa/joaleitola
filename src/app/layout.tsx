@@ -6,7 +6,6 @@ import { ThemeProvider } from "@/components/theme/theme-provider"
 import { Analytics } from "@vercel/analytics/react"
 import Navigation from "@/components/navigation/navigation"
 import { baseUrl } from "@/lib/baseUrl"
-import { GeistSans } from "geist/font"
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
 export const metadata: Metadata = {
@@ -29,18 +28,6 @@ export const metadata: Metadata = {
   creator: "Joa Leitola",
   alternates: {
     canonical: "/",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-snippet": -1,
-    },
   },
 }
 
