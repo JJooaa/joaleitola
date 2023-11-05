@@ -8,6 +8,8 @@ import {
 } from "@/components/ui/card"
 import Link from "next/link"
 import { Badge } from "./ui/badge"
+import { Button, buttonVariants } from "./ui/button"
+import { cn } from "@/lib/utils"
 
 export function ProjectCard({
   title,
@@ -21,7 +23,7 @@ export function ProjectCard({
   technologies: readonly string[]
 }) {
   return (
-    <Card className="relative w-full max-w-sm rounded-lg ring-primary transition-all duration-300 hover:-translate-y-1 hover:ring-1">
+    <Card className="relative w-full max-w-sm rounded-lg ring-primary transition-all duration-300 md:hover:-translate-y-1 md:hover:ring-1">
       <CardHeader>
         <CardTitle className="text-2xl font-bold">{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
@@ -33,8 +35,15 @@ export function ProjectCard({
           </Badge>
         ))}
       </CardContent>
+      <CardFooter>
+        <Link
+          className={cn(buttonVariants({ variant: "outline" }), "z-10")}
+          href={href}
+        >
+          Read More
+        </Link>
+      </CardFooter>
       <Link className="absolute inset-0" href={href} />
-      <span className="sr-only">View Project</span>
     </Card>
   )
 }

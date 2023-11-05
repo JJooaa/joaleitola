@@ -80,7 +80,7 @@ export const projects = [
     description:
       "I played a pivotal role in revolutionizing a service information system for social welfare clients and service providers. Our team enhanced efficiency and user-friendliness by optimizing search algorithms, database management, and UI design.",
     link: projectUrl + "/service-information-systems-application",
-    technologies: ["React.js", "MaterialUI", "Typescript"],
+    technologies: ["React.js", "MaterialUI", "Typescript", "External API's"],
   },
   {
     name: "Property Management",
