@@ -24,35 +24,32 @@ export function NavigationDesktop({
         width={45}
         height={45}
       />
-      <NavigationMenuList className="mx-14 cursor-pointer">
+      <NavigationMenuList className="mx-14 cursor-pointer gap-4">
         <Link href={links.home.path} legacyBehavior passHref>
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.home.path) &&
-                "text-blue-500 underline underline-offset-2"
+              isActive(links.home.path) && "bg-secondary text-primary "
             )}
           >
             {links.home.name}
           </NavigationMenuItem>
         </Link>
-        <Link href={links.projects.path} legacyBehavior passHref>
+        <Link href={links.projectsAndTools.path} legacyBehavior passHref>
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.projects.path) &&
-                "text-blue-500 underline underline-offset-2"
+              isActive(links.projectsAndTools.path) && "bg-secondary text-primary "
             )}
           >
-            {links.projects.name}
+            {links.projectsAndTools.name}
           </NavigationMenuItem>
         </Link>
         <Link href={links.workingWithMe.path} legacyBehavior passHref>
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.workingWithMe.path) &&
-                "text-blue-500 underline underline-offset-2"
+              isActive(links.workingWithMe.path) && "bg-secondary text-primary "
             )}
           >
             {links.workingWithMe.name}
@@ -63,8 +60,7 @@ export function NavigationDesktop({
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.contact.path) &&
-                "text-blue-500 underline underline-offset-2"
+              isActive(links.contact.path) && "bg-secondary text-primary "
             )}
           >
             {links.contact.name}

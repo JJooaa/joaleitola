@@ -13,9 +13,9 @@ export const links = {
     path: "/contact",
     name: "Contact",
   },
-  projects: {
-    path: "/projects",
-    name: "Projects",
+  projectsAndTools: {
+    path: "/projects-and-tools",
+    name: "Projects & Tools",
   },
   workingWithMe: {
     path: "/maximizing-results",
@@ -58,12 +58,13 @@ export const cardData = [
   },
 ] as const
 
+const projectUrl = "/projects-and-tools/projects"
 export const projects = [
   {
     name: "Automotive Industry",
     description:
       "I managed the client's application, improving search features, revamping the user interface with Next.js and ChakraUI, and optimizing the backend with Nest.js, Docker, and Google Cloud. Integrated multiple external APIs for added data.",
-    link: "/projects/automotive-industry-web-app",
+    link: projectUrl + "/automotive-industry-web-app",
     technologies: [
       "React.js",
       "Next.js",
@@ -78,14 +79,14 @@ export const projects = [
     name: "Service Informations",
     description:
       "I played a pivotal role in revolutionizing a service information system for social welfare clients and service providers. Our team enhanced efficiency and user-friendliness by optimizing search algorithms, database management, and UI design.",
-    link: "/projects/service-information-systems-application",
+    link: projectUrl + "/service-information-systems-application",
     technologies: ["React.js", "MaterialUI", "Typescript"],
   },
   {
     name: "Property Management",
     description:
       "I developed a seamless Finance/Banking Integration for a property management platform, enhancing financial monitoring. I also introduced advanced maintenance and repair planning features, improving property management efficiency.",
-    link: "/projects/property-management-platform",
+    link: projectUrl + "/property-management-platform",
     technologies: [
       "React.js",
       "Hasura",
@@ -101,7 +102,7 @@ export const projects = [
     name: "Joa Leitola Website",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque reprehenderit fugit saepe nemo harum accusantium, dolor velit. Reiciendis, doloribus aspernatur exercitationem in ipsam, iure cum sequi alias ipsa neque delectus.",
-    link: "/projects/joa-leitola-website",
+    link: projectUrl + "/joa-leitola-website",
     technologies: [
       "Next.js",
       "ShadcnUI",

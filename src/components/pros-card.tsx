@@ -12,12 +12,11 @@ type Props = {
   description: string
 }
 
-
 export function ProsCard({ icon, title, description }: Props) {
   return (
     <Card className="max-w-lg">
       <CardHeader>
-        <CardTitle className="flex items-center gap-4 text-xl md:text-2xl">
+        <CardTitle className="flex items-center gap-4 text-xl font-bold md:text-2xl">
           {icon}
           {title}
         </CardTitle>

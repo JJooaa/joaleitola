@@ -50,7 +50,7 @@ export default function ContactPage() {
           height={200}
           src="/joa_kuva.jpeg"
           alt="Joa Leitola - Headshot"
-          className="mx-auto rounded-full"
+          className="mx-auto rounded-full border border-primary"
         />
       </div>
     </>

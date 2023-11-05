@@ -55,13 +55,13 @@ export function NavigationMobile({
           </SheetClose>
           <SheetClose asChild>
             <Link
-              href={links.projects.path}
+              href={links.projectsAndTools.path}
               className={cn(
-                isActive(links.projects.path) &&
+                isActive(links.projectsAndTools.path) &&
                   "text-xl text-blue-500 underline underline-offset-4"
               )}
             >
-              {links.projects.name}
+              {links.projectsAndTools.name}
             </Link>
           </SheetClose>
           <SheetClose asChild>

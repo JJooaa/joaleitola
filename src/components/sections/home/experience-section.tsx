@@ -1,17 +1,18 @@
 import { buttonVariants } from "@/components/ui/button"
 import { links } from "@/lib/consts"
 import { cn } from "@/lib/utils"
+import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export function ExperienceSection() {
   return (
     <section
       id="projects"
-      className="container max-w-5xl border-b-2 py-8 md:py-12 lg:py-24"
+      className="mx-auto max-w-4xl border-b-2 py-8 md:py-12 lg:py-24"
     >
       <div className="flex flex-col gap-4">
         <h2 className="max-w-[64rem] text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
-          I build All Things Web Related
+          I build all Things Web Related
         </h2>
         <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
           I&apos;m pretty solid when it comes to web development. I really enjoy
@@ -27,12 +28,13 @@ export function ExperienceSection() {
         </p>
         <Link
           className={cn(
-            buttonVariants({ variant: "default" }),
-            "gap-4 self-start"
+            buttonVariants({ variant: "link" }),
+            "gap-4 self-start p-1"
           )}
-          href={links.projects.path}
+          href={links.projectsAndTools.path}
         >
-          Projects &rarr;
+          {links.projectsAndTools.name}
+          <ArrowRight />
         </Link>
       </div>
     </section>

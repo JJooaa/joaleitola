@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="container border-b-2 pb-8 pt-6 md:pb-12 md:pt-12 lg:py-32"
+      className="border-b-2 pb-8 pt-6 md:container md:pb-12 md:pt-12 lg:py-32"
     >
       <div className="flex max-w-[64rem] flex-col items-center gap-4 text-center md:container">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
