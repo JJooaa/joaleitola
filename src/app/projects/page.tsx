@@ -1,4 +1,5 @@
 import { ProjectCard } from "@/components/project-card"
+import { ContactSection } from "@/components/sections/home/contact-section"
 import { projects } from "@/lib/consts"
 import { Metadata } from "next"
 
@@ -30,6 +31,7 @@ export default function Projects() {
           />
         ))}
       </div>
+      <ContactSection />
     </>
   )
 }

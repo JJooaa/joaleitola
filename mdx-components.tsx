@@ -32,6 +32,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ),
     a: ({ children, href }) => (
       <a
+        target="_blank"
         href={href}
         className="font-medium text-primary underline underline-offset-4"
       >

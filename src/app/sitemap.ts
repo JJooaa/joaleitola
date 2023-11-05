@@ -25,6 +25,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: baseUrl + "/projects" + "/joa-leitola-website",
+      lastModified: new Date(),
+    },
+    {
       url: baseUrl + "/contact",
       lastModified: new Date(),
     },

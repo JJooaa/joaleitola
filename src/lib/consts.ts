@@ -33,22 +33,22 @@ export const links = {
 
 export const cardData = [
   {
-    title: "Modern Solutions",
+    title: "Cutting-Edge Solutions",
     icon: Code2,
     description:
-      "I'm always up to date with the latest technologies. I'm not afraid to try new things and always looking for ways to improve my workflow.",
+      "I keep pace with the latest technologies and trends to ensure your project remains at the forefront of innovation. Solutions that enhance your project's performance and quality.",
   },
   {
     title: "Consulting experience",
     icon: Gem,
     description:
-      "I've worked with clients from all over the world. I'm used to working with remote teams and I'm a great communicator.",
+      "I deliver high-quality software development services and have received positive feedback from clients and peers, highlighting the effectiveness and impact of my work.",
   },
   {
     title: "Progressive Development",
     icon: Recycle,
     description:
-      "Starting by creating an initial working version of an app. If you feel satisfied with the product, we keep implementing new features. If not, we can always go back to the drawing board.",
+      "We start by creating an initial working version of an app. If you feel satisfied with the product, we keep implementing new features. If not, we can always go back to the drawing board.",
   },
   {
     title: "Easy & Simple",
@@ -95,6 +95,20 @@ export const projects = [
       "Vite",
       "MaterialUI",
       "TypeScript",
+    ],
+  },
+  {
+    name: "Joa Leitola Website",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque reprehenderit fugit saepe nemo harum accusantium, dolor velit. Reiciendis, doloribus aspernatur exercitationem in ipsam, iure cum sequi alias ipsa neque delectus.",
+    link: "/projects/joa-leitola-website",
+    technologies: [
+      "Next.js",
+      "ShadcnUI",
+      "Vercel",
+      "TypeScript",
+      "TailwindCSS",
+      "MDX",
     ],
   },
 ] as const

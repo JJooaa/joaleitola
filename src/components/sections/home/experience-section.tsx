@@ -11,7 +11,7 @@ export function ExperienceSection() {
     >
       <div className="flex flex-col gap-4">
         <h2 className="max-w-[64rem] text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
-          I build all things web related.
+          I build All Things Web Related
         </h2>
         <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
           I&apos;m pretty solid when it comes to web development. I really enjoy
@@ -21,15 +21,19 @@ export function ExperienceSection() {
           learning and staying up-to-date with the latest tech to stay ahead in
           this fast-paced industry.
         </p>
-        <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
-          Check out some of the work
-          <Link
-            className={cn(buttonVariants({ variant: "link" }), "text-base")}
-            href={links.projects.path}
-          >
-            Here &rarr;
-          </Link>
+        <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-8">
+          Check out some of the work I&apos;ve done in the past - or that
+          I&apos;m currently working on.
         </p>
+        <Link
+          className={cn(
+            buttonVariants({ variant: "default" }),
+            "gap-4 self-start"
+          )}
+          href={links.projects.path}
+        >
+          Projects &rarr;
+        </Link>
       </div>
     </section>
   )

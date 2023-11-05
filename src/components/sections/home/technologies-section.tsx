@@ -8,13 +8,11 @@ export function TechnologiesSection() {
     >
       <div className="flex flex-col gap-4">
         <h2 className="max-w-[64rem] text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
-          Tech I work with.
+          Tech Toolbox
         </h2>
         <p className="max-w-2xl text-center leading-normal text-muted-foreground sm:text-lg sm:leading-8">
-          Used these all quite a bit. There is more, but these are the big
-          keywords where recruiters or customers might get excited for. The
-          ecosystems are also tightly included when working with these
-          technologies.
+          These are my go-to tools. There&apos;s more in my arsenal, but these
+          are the big players that get recruiters and clients buzzing.
         </p>
         <div className="mx-auto flex max-w-lg flex-wrap justify-center gap-2">
           <Badge className="bg-blue-500">React.js</Badge>

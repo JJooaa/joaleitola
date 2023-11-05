@@ -12,7 +12,7 @@ export function ContactButton({ icon, href, text }: ContactButtonProps) {
   return (
     <Link
       className={cn(
-        buttonVariants({ variant: "outline" }),
+        buttonVariants({ variant: "secondary" }),
         "flex justify-between gap-2"
       )}
       href={href}

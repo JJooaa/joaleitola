@@ -9,7 +9,7 @@ export function ProsSection() {
     >
       <div className="flex flex-col gap-8">
         <h2 className="max-w-[64rem] text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
-          Pros of working with me.
+          Pros of working with me
         </h2>
         <div className="mx-auto grid grid-cols-1 gap-8 md:grid-cols-2">
           {cardData.map((item) => (

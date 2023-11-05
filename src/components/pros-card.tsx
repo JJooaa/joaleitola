@@ -12,6 +12,7 @@ type Props = {
   description: string
 }
 
+
 export function ProsCard({ icon, title, description }: Props) {
   return (
     <Card className="max-w-lg">
