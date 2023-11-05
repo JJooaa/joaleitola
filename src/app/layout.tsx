@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
     nocache: true,
     googleBot: {
@@ -38,7 +38,6 @@ export const metadata: Metadata = {
       follow: false,
       noimageindex: true,
       "max-video-preview": -1,
-      "max-image-preview": "large",
       "max-snippet": -1,
     },
   },
