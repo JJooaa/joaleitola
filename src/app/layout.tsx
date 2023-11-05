@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme/theme-provider"
 import { Analytics } from "@vercel/analytics/react"
 import Navigation from "@/components/navigation/navigation"
 import { baseUrl } from "@/lib/baseUrl"
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
 export const metadata: Metadata = {
@@ -17,12 +18,23 @@ export const metadata: Metadata = {
   description:
     "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
   keywords: [
+    "joa leitola",
     "consulting",
     "software",
     "development",
     "websites",
     "web",
+    "services",
     "applications",
+    "helsinki",
+    "finland",
+    "reactjs",
+    "nextjs",
+    "typescript",
+    "javascript",
+    "nodejs",
+    "tailwindcss",
+    "tailwind",
   ],
   applicationName: "Joa Leitola Website",
   creator: "Joa Leitola",

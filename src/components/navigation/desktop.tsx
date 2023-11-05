@@ -39,7 +39,8 @@ export function NavigationDesktop({
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.projectsAndTools.path) && "bg-secondary text-primary "
+              isActive(links.projectsAndTools.path) &&
+                "bg-secondary text-primary "
             )}
           >
             {links.projectsAndTools.name}
