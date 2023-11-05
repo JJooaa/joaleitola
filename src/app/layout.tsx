@@ -15,7 +15,8 @@ export const metadata: Metadata = {
     template: "%s | Joa Leitola",
     default: "Joa Leitola",
   },
-  description: "Joa Leitola's personal website.",
+  description:
+    "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
   keywords: [
     "consulting",
     "software",
