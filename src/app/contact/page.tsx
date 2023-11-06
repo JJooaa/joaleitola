@@ -48,7 +48,7 @@ export default function ContactPage() {
         <Image
           width={200}
           height={200}
-          src="/joa_kuva.jpeg"
+          src="/joa_kuva.jpg"
           alt="Joa Leitola - Full Stack Web Developer Headshot"
           className="mx-auto rounded-full border border-primary"
         />
