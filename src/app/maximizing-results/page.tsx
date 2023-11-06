@@ -29,83 +29,45 @@ export default function MaximizingResults() {
 
       <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
         <h3 className="flex gap-5 text-xl font-bold tracking-tighter sm:text-2xl md:gap-10 md:text-3xl lg:text-4xl">
-          1. <span>Let&apos;s Begin our Journey with a Personal Meeting!</span>
+          1. <span>Starting Our Journey:</span>
         </h3>
         <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
-          Our process starts with our initial contact, and from there,
-          we&apos;ll arrange a meeting to get to know each other and establish a
-          strong foundation.
-          <br />
-          <br />
-          During this meeting, I encourage you to open up and share your needs,
-          desires, and budget considerations. I&apos;ll be taking thorough notes
-          to ensure I understand your vision and requirements. Your input is
-          invaluable in helping me create the perfect solution for you.
-          <br />
-          <br />
-          After our call, I&apos;ll get to work immediately on crafting a
-          tailored offer that aligns with your unique goals and budget. The best
-          part? You won&apos;t have to wait long. You can expect to hear from me
-          within 0-2 days, even during the weekends.
-          <br />
-          <br />
-          With this personalized and efficient process, you&apos;re not just
-          another client; you&apos;re a valued partner in our journey to
-          success.
+          Our process begins with an initial meeting where we&apos;ll have a
+          detailed discussion about your specific needs and budget. This allows
+          me to fully understand your requirements and provide you with a
+          tailored offer that meets your expectations. I pride myself on my
+          quick response time and will ensure that you receive a detailed
+          proposal within 0-2 days, even on weekends. I value our partnership
+          and believe that together we can achieve great things.
         </p>
       </div>
 
       <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
         <h3 className="flex gap-4 text-xl font-bold tracking-tighter sm:text-2xl md:gap-8 md:text-3xl lg:text-4xl">
-          2. <span>Active Development Phase</span>
+          2. <span>Active Development:</span>
         </h3>
         <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
-          I believe in a dynamic and customer-centric approach to web
-          development, and when you work with me, it&apos;s not just a
-          transaction; it&apos;s a partnership. I&apos;ve chosen
-          Agile/Kanban-style development as our method of choice, and
-          here&apos;s what that means for you:
-          <br />
-          <br />
-          We&apos;re on the same page, you and I, collaborating closely to bring
-          your vision to life. There&apos;s no guesswork, no uncertainty.
-          You&apos;re an active part of every step in the development journey.
-          <br />
-          <br />
-          Imagine having a brilliant idea or a sudden burst of inspiration. With
-          our Agile/Kanban approach, you have the power to turn that idea into
-          reality. Just make a ticket, and watch it come to life.
-          <br />
-          <br />
-          My transparent development process lets you see precisely where your
-          investment is going. You witness results in real-time. No more
-          uncertainty about how your money is being spent. With me, you can be
-          confident that your investment is worth every penny, as you see
-          tangible outcomes taking shape right before your eyes.
+          I believe in a collaborative approach and follow an Agile/Kanban
+          methodology. This means that you will actively participate in every
+          step of the development process. You won&apos;t have to worry about
+          any uncertainty regarding how your investment is being used because
+          you will have full visibility into the progress being made. You will
+          be able to see the results in real-time, allowing you to witness your
+          ideas being transformed into reality with ease.
         </p>
       </div>
 
       <div className="lg:py-18 mx-auto max-w-4xl space-y-6 pb-4 pt-6 md:pb-6 md:pt-16">
         <h3 className="flex gap-4 text-xl font-bold tracking-tighter sm:text-2xl md:gap-8 md:text-3xl lg:text-4xl">
-          3. <span>Unlocking Your Vision - The MVP and Beyond!</span>
+          3. <span>Unlocking Your Vision:</span>
         </h3>
         <p className="ml-4 border-l-2 pl-4 leading-normal text-foreground sm:text-lg sm:leading-8 md:pl-12">
-          Once we&apos;ve laid the groundwork and worked closely together,
-          we&apos;ll reach a pivotal moment where your MVP (minimum viable
-          product) comes to fruition. This is the initial, essential version of
-          your project, tailored to your specific requirements and objectives.
-          <br />
-          <br />
-          But here&apos;s where our process truly shines - the journey
-          doesn&apos;t end here. If you find yourself yearning for more, whether
-          it&apos;s additional features, enhancements, or entirely new ideas, we
-          can seamlessly return to step 2 of our Agile development approach.
-          Your project can continually evolve and adapt as your needs and
-          desires grow.
-          <br />
-          <br />
-          With me, you&apos;re not just receiving a one-off solution;
-          you&apos;re gaining a committed development partner for the long haul.
+          This is where you will receive a Minimum Viable Product (MVP) that is
+          specifically tailored to your needs. However, my commitment to you
+          doesn&apos;t end there. I see our partnership as a long-term one and
+          am dedicated to continuously evolving your project with you. I want to
+          be your trusted development partner who can support you in achieving
+          your vision for the future.
         </p>
       </div>
       <ContactSection />
