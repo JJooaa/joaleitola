@@ -9,23 +9,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: baseUrl + "/projects",
+      url: baseUrl + "/projects-and-tools",
       lastModified: new Date(),
     },
     {
-      url: baseUrl + "/projects" + "/automotive-industry-web-app",
+      url: baseUrl + "/projects-and-tools/projects" + "/automotive-industry",
       lastModified: new Date(),
     },
     {
-      url: baseUrl + "/projects" + "/property-management-platform",
+      url: baseUrl + "/projects-and-tools/projects" + "/property-management",
       lastModified: new Date(),
     },
     {
-      url: baseUrl + "/projects" + "/service-information-systems-application",
+      url:
+        baseUrl +
+        "/projects-and-tools/projects" +
+        "/service-information-system",
       lastModified: new Date(),
     },
     {
-      url: baseUrl + "/projects" + "/joa-leitola-website",
+      url:
+        baseUrl + "/projects-and-tools/projects" + "/current-personal-website",
       lastModified: new Date(),
     },
     {

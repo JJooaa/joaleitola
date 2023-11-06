@@ -59,12 +59,13 @@ export const cardData = [
 ] as const
 
 const projectUrl = "/projects-and-tools/projects"
+
 export const projects = [
   {
     name: "Automotive Industry",
     description:
       "I managed the client's application, improving search features, revamping the user interface with Next.js and ChakraUI, and optimizing the backend with Nest.js, Docker, and Google Cloud. Integrated multiple external APIs for added data.",
-    link: projectUrl + "/automotive-industry-web-app",
+    link: projectUrl + "/automotive-industry",
     technologies: [
       "React.js",
       "Next.js",
@@ -76,17 +77,17 @@ export const projects = [
     ],
   },
   {
-    name: "Service Informations",
+    name: "Service Information System",
     description:
       "I played a pivotal role in revolutionizing a service information system for social welfare clients and service providers. Our team enhanced efficiency and user-friendliness by optimizing search algorithms, database management, and UI design.",
-    link: projectUrl + "/service-information-systems-application",
+    link: projectUrl + "/service-information-system",
     technologies: ["React.js", "MaterialUI", "Typescript", "External API's"],
   },
   {
     name: "Property Management",
     description:
       "I developed a seamless Finance/Banking Integration for a property management platform, enhancing financial monitoring. I also introduced advanced maintenance and repair planning features, improving property management efficiency.",
-    link: projectUrl + "/property-management-platform",
+    link: projectUrl + "/property-management",
     technologies: [
       "React.js",
       "Hasura",
@@ -99,10 +100,10 @@ export const projects = [
     ],
   },
   {
-    name: "Joa Leitola Website",
+    name: "Current Personal Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque reprehenderit fugit saepe nemo harum accusantium, dolor velit. Reiciendis, doloribus aspernatur exercitationem in ipsam, iure cum sequi alias ipsa neque delectus.",
-    link: projectUrl + "/joa-leitola-website",
+      "When embarking on the journey to build my personal website, I was determined to make it stand out in a crowded online world. I wanted a website that not only looked fantastic but also performed exceptionally well, with a focus on SEO and simplicity.",
+    link: projectUrl + "/current-personal-website",
     technologies: [
       "Next.js",
       "ShadcnUI",
