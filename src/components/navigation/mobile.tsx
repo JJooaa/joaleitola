@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Button } from "../ui/button"
+import { Button, buttonVariants } from "../ui/button"
 import {
   Sheet,
   SheetClose,
@@ -46,8 +46,9 @@ export function NavigationMobile({
             <Link
               href={links.home.path}
               className={cn(
-                isActive(links.home.path) &&
-                  "text-xl text-blue-500 underline underline-offset-4"
+                buttonVariants({
+                  variant: isActive(links.home.path) ? "secondary" : "ghost",
+                })
               )}
             >
               {links.home.name}
@@ -57,8 +58,11 @@ export function NavigationMobile({
             <Link
               href={links.projectsAndTools.path}
               className={cn(
-                isActive(links.projectsAndTools.path) &&
-                  "text-xl text-blue-500 underline underline-offset-4"
+                buttonVariants({
+                  variant: isActive(links.projectsAndTools.path)
+                    ? "secondary"
+                    : "ghost",
+                })
               )}
             >
               {links.projectsAndTools.name}
@@ -68,8 +72,11 @@ export function NavigationMobile({
             <Link
               href={links.workingWithMe.path}
               className={cn(
-                isActive(links.workingWithMe.path) &&
-                  "text-xl text-blue-500 underline underline-offset-4"
+                buttonVariants({
+                  variant: isActive(links.workingWithMe.path)
+                    ? "secondary"
+                    : "ghost",
+                })
               )}
             >
               {links.workingWithMe.name}
@@ -79,8 +86,9 @@ export function NavigationMobile({
             <Link
               href={links.contact.path}
               className={cn(
-                isActive(links.contact.path) &&
-                  "text-xl text-blue-500 underline underline-offset-4"
+                buttonVariants({
+                  variant: isActive(links.contact.path) ? "secondary" : "ghost",
+                })
               )}
             >
               {links.contact.name}
