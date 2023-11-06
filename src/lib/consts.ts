@@ -64,7 +64,7 @@ export const projects = [
   {
     name: "Automotive Industry",
     description:
-      "I managed the client's application, improving search features, revamping the user interface with Next.js and ChakraUI, and optimizing the backend with Nest.js, Docker, and Google Cloud. Integrated multiple external APIs for added data.",
+      "I managed the client's application, improved search features, revamped the user interface with Next.js and ChakraUI, and optimized the backend with Nest.js, Docker, and Google Cloud. Integrated multiple external APIs for added data.",
     link: projectUrl + "/automotive-industry",
     technologies: [
       "React.js",
