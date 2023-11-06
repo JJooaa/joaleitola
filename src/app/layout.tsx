@@ -35,6 +35,8 @@ export const metadata: Metadata = {
     "nodejs",
     "tailwindcss",
     "tailwind",
+    "freelance",
+    "contract",
   ],
   applicationName: "Joa Leitola Website",
   creator: "Joa Leitola",

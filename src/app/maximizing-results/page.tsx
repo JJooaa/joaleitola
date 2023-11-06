@@ -8,7 +8,7 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Maximize Results",
   description:
-    "I am a full stack developer from Finland. I create beautiful and easy to use web experiences.Consulting and freelance work available. Contact me for more information.",
+    "On this page, I'll guide you through our collaborative journey, from our initial contact to the successful delivery of your project.",
 }
 
 export default function MaximizingResults() {

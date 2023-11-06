@@ -8,7 +8,7 @@ import { ContactButton } from "@/components/contact-button"
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "I am a full stack developer from Finland. I create beautiful and easy to use web experiences.Consulting and freelance work available. Contact me for more information.",
+    "Contact me via email, phone, LinkedIn or GitHub. I'm always open to new opportunities.",
 }
 
 export default function ContactPage() {
