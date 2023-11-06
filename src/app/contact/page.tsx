@@ -19,9 +19,8 @@ export default function ContactPage() {
           Here&apos;s how you can reach me
         </h2>
         <p className="mx-auto max-w-[50rem] text-center leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          I use all types of socials etc, that you can contact me with. I prefer
-          emails for initial contacts. If we work together, I make sure we
-          communicate via phones.
+          I use social media and email for communication. If we decide to work
+          together, we can communicate via phone.
         </p>
         <div className="mx-auto flex max-w-lg flex-col gap-4 py-8 sm:grid sm:grid-cols-2 md:py-12 lg:py-10">
           <ContactButton

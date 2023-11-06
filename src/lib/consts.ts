@@ -64,7 +64,7 @@ export const projects = [
   {
     name: "Automotive Industry",
     description:
-      "I managed the client's application, improved search features, revamped the user interface with Next.js and ChakraUI, and optimized the backend with Nest.js, Docker, and Google Cloud. Integrated multiple external APIs for added data.",
+      "In the automotive industry, I have been leading a project to enhance the client's application. Throughout this journey, I have closely collaborated with the client to understand their unique needs and align the platform with their vision.",
     link: projectUrl + "/automotive-industry",
     technologies: [
       "React.js",
@@ -79,14 +79,14 @@ export const projects = [
   {
     name: "Service Information System",
     description:
-      "I played a significant role in revolutionizing a service information system for social welfare clients and service providers. Our team enhanced efficiency and user-friendliness by optimizing search algorithms, database management, and UI design.",
+      "I played a significant role in developing a service information system that revolutionized how social welfare clients access service providers. I closely collaborated with our development team to address technical issues and implement crucial enhancements.",
     link: projectUrl + "/service-information-system",
     technologies: ["React.js", "MaterialUI", "Typescript", "External API's"],
   },
   {
     name: "Property Management",
     description:
-      "I developed a seamless Finance/Banking Integration for a property management platform, enhancing financial monitoring. I also introduced advanced maintenance and repair planning features, improving property management efficiency.",
+      "I worked on a finance management system that integrated a banking API into a property management platform. This enabled property managers to monitor payment histories and balances, improving financial management.",
     link: projectUrl + "/property-management",
     technologies: [
       "React.js",
@@ -102,7 +102,7 @@ export const projects = [
   {
     name: "Current Personal Website",
     description:
-      "When embarking on the journey to build my personal website, I was determined to make it stand out in a crowded online world. I wanted a website that not only looked fantastic but also performed exceptionally well, with a focus on SEO and simplicity.",
+      "When embarking on the journey to build my personal website, I was focused to make it stand out in a crowded online world. I wanted a website that not only looked good but also performed exceptionally well, with a focus on SEO and simplicity.",
     link: projectUrl + "/current-personal-website",
     technologies: [
       "Next.js",

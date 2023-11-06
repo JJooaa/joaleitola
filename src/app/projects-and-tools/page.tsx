@@ -47,9 +47,8 @@ export default function Projects() {
         Projects & Tools
       </h2>
       <p className="mx-auto max-w-[50rem] text-center leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-        This is where I display a selection of the software projects I&apos;ve
-        had the privilege of working on. Explore the wide variety of creations,
-        and gain insight into my coding expertise.
+        This is where I showcase my software projects. Explore the diverse range
+        of creations and gain insight into my coding expertise.
       </p>
       <TechnologiesSection />
       <div className="lg:py-18 mx-auto grid max-w-3xl grid-cols-1 justify-items-center gap-8 pb-4 pt-6 md:grid-cols-2 md:pb-6 md:pt-16">

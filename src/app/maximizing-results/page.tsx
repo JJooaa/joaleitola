@@ -19,11 +19,9 @@ export default function MaximizingResults() {
           Maximizing Results: Our Approach to Collaboration
         </h2>
         <p className="mx-auto max-w-[50rem] text-center leading-normal text-muted-foreground sm:text-xl sm:leading-8 ">
-          On this page, I&apos;ll guide you through our collaborative journey,
-          from our initial contact to the successful delivery of your project.
-          Discover how we plan each step to ensure your experience working with
-          me is not only seamless but also maximizes the value of your
-          investment.
+          On this page, I&apos;ll guide you through our journey from initial
+          contact to successful project delivery. Learn how we plan each step to
+          ensure a seamless experience and maximize your investment value.
         </p>
       </div>
 
@@ -65,7 +63,7 @@ export default function MaximizingResults() {
           This is where you will receive a Minimum Viable Product (MVP) that is
           specifically tailored to your needs. However, my commitment to you
           doesn&apos;t end there. I see our partnership as a long-term one and
-          am dedicated to continuously evolving your project with you. I want to
+          am dedicated to continuously evolve your project with you. I want to
           be your trusted development partner who can support you in achieving
           your vision for the future.
         </p>
