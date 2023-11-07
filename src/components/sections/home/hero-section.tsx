@@ -29,7 +29,7 @@ export function HeroSection() {
           </Link>
           <Link
             className={cn(buttonVariants({ variant: "secondary" }), "px-6")}
-            href={links.workingWithMe.path}
+            href="#crafting-digital-experiences"
           >
             What To Expect?
           </Link>

@@ -7,7 +7,7 @@ import Link from "next/link"
 export function ExperienceSection() {
   return (
     <section
-      id="projects"
+      id="crafting-digital-experiences"
       className="mx-auto max-w-4xl border-b-2 py-8 md:py-12 lg:py-24"
     >
       <div className="flex flex-col gap-4">
