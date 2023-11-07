@@ -36,13 +36,13 @@ export const cardData = [
     title: "Cutting-Edge Solutions",
     icon: Code2,
     description:
-      "I keep pace with the latest technologies and trends to ensure your project remains at the forefront of innovation. Solutions that enhance your project's performance and quality.",
+      "I stay updated with the latest technologies and trends to ensure that your project stays at the forefront of innovation. I provide solutions that enhance the performance and quality of your project.",
   },
   {
     title: "Consulting experience",
     icon: Gem,
     description:
-      "I deliver high-quality software development services and have received positive feedback from clients and peers, highlighting the effectiveness and impact of my work.",
+      "I provide high-quality software development services and have received positive feedback from clients and peers, who have emphasized the effectiveness and impact of my work.",
   },
   {
     title: "Progressive Development",

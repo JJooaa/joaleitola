@@ -31,17 +31,16 @@ export function ExperienceSection() {
           make your online presence shine.
         </p>
         <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-8">
-          Check out some of the work I&apos;ve done in the past - or that
-          I&apos;m currently working on.
+          Read more about how we can collaborate on your next project.
         </p>
         <Link
           className={cn(
-            buttonVariants({ variant: "link" }),
-            "gap-4 self-start p-1"
+            buttonVariants({ variant: "outline" }),
+            "gap-4 self-start"
           )}
-          href={links.projectsAndTools.path}
+          href={links.workingWithMe.path}
         >
-          {links.projectsAndTools.name}
+          {links.workingWithMe.name}
           <ArrowRight />
         </Link>
       </div>
