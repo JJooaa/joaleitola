@@ -14,10 +14,11 @@ export function HeroSection() {
           Joa Leitola <br /> Full Stack Web Developer
         </h1>
         <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          I&apos;m all about creating web experiences that are both easy to use
-          and visually appealing. It starts with careful planning and bringing
-          ideas to life. Then, it&apos;s all about developing and refining the
-          code to make sure it works seamlessly.
+          Whether you&apos;re looking for a freelance web developer, seeking
+          expert consulting on web development projects, or need a reliable
+          partner for your software needs, you&apos;re in the right place. I
+          specialize in web development technologies like React.js, Next.js,
+          TypeScript and the ecosystem around them.
         </p>
         <div className="flex flex-wrap-reverse justify-center gap-2">
           <Link

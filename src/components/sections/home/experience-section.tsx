@@ -12,15 +12,23 @@ export function ExperienceSection() {
     >
       <div className="flex flex-col gap-4">
         <h2 className="max-w-[64rem] text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
-          I build all Things Web Related
+          Crafting Digital Experiences
         </h2>
         <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-lg sm:leading-8">
-          I&apos;m pretty solid when it comes to web development. I really enjoy
-          working on the frontend, especially with Next.js/React.js and all the
-          cool stuff it brings to the table. It&apos;s my go-to stack for
-          crafting awesome user interfaces and experiences. I&apos;m always
-          learning and staying up-to-date with the latest tech to stay ahead in
-          this fast-paced industry.
+          I provide various services to enhance the performance of your website
+          and improve your online presence. These services include offering
+          advice on effective strategies, optimizing website performance,
+          creating functional and visually appealing websites, and improving
+          user experience through application development.
+          <br />
+          <br />
+          Additionally, I have a growing interest in SEO and I am committed to
+          using search engine optimization techniques to increase the visibility
+          of your website and attract more traffic to your business. Whether you
+          require consulting or freelance web development services, I can
+          deliver outstanding results tailored to your specific needs. Contact
+          me today to discuss your web development requirements and let&apos;s
+          make your online presence shine.
         </p>
         <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-8">
           Check out some of the work I&apos;ve done in the past - or that
