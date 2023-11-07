@@ -16,11 +16,13 @@ export default function ContactPage() {
     <>
       <div className="space-y-6 pt-6 md:container md:pt-12 lg:pt-32">
         <h2 className="text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
-          Here&apos;s how you can reach me
+          Contact
         </h2>
         <p className="mx-auto max-w-[50rem] text-center leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          I use social media and email for communication. If we decide to work
-          together, we can communicate via phone.
+          Feel free to reach out to me through various channels. I am available
+          for communication via social media, email, or phone. Let&apos;s
+          connect and discuss how I can assist you in improving your
+          website&apos;s performance and boosting your online presence.
         </p>
         <div className="mx-auto flex max-w-lg flex-col gap-4 py-8 sm:grid sm:grid-cols-2 md:py-12 lg:py-10">
           <ContactButton
