@@ -50,6 +50,14 @@ export const metadata: Metadata = {
     "web devs",
     "verkkokehittäjä",
   ],
+  twitter: {
+    card: "summary_large_image",
+    title: "Joa Leitola",
+    description:
+      "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
+    images: [`${baseUrl}/og.png`],
+    creator: "@joaleitola",
+  },
   applicationName: "Joa Leitola Web Development Website",
   creator: "Joa Leitola",
   alternates: {
