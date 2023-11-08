@@ -50,6 +50,15 @@ export const metadata: Metadata = {
     "web devs",
     "verkkokehittäjä",
   ],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: baseUrl,
+    title: "Joa Leitola",
+    description:
+      "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
+    siteName: "Joa Leitola",
+  },
   twitter: {
     card: "summary_large_image",
     title: "Joa Leitola",
