@@ -54,20 +54,20 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: baseUrl,
-    title: "Joa Leitola",
+    title: "Joa Leitola - Software Development Services",
     description:
       "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
     siteName: "Joa Leitola",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Joa Leitola",
+    title: "Joa Leitola - Software Development Services",
     description:
       "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
     images: [`${baseUrl}/og.png`],
     creator: "@joaleitola",
   },
-  applicationName: "Joa Leitola Web Development Website",
+  applicationName: "Joa Leitola - Software Development Services",
   creator: "Joa Leitola",
   alternates: {
     canonical: "/",
