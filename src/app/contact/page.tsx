@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 import Image from "next/image"
-import { Mail, PhoneCall } from "lucide-react"
+import { Mail, PhoneCall, Twitter } from "lucide-react"
 import { Github } from "lucide-react"
 import { Linkedin } from "lucide-react"
 import { ContactButton } from "@/components/contact-button"
@@ -44,6 +44,11 @@ export default function ContactPage() {
             icon={<PhoneCall />}
             href="tel:+358400232551"
             text="+358 400232551"
+          />
+          <ContactButton
+            icon={<Twitter />}
+            href="https://twitter.com/JoaLeitola"
+            text="@JoaLeitola"
           />
         </div>
         <Image
