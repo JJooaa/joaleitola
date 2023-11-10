@@ -43,6 +43,7 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <>
+      <p>test</p>
       <h2 className="text-center text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl lg:text-5xl">
         Projects & Tools
       </h2>
