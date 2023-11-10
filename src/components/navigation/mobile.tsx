@@ -56,16 +56,16 @@ export function NavigationMobile({
           </SheetClose>
           <SheetClose asChild>
             <Link
-              href={links.projectsAndTools.path}
+              href={links.myServices.path}
               className={cn(
                 buttonVariants({
-                  variant: isActive(links.projectsAndTools.path)
+                  variant: isActive(links.myServices.path)
                     ? "secondary"
                     : "ghost",
                 })
               )}
             >
-              {links.projectsAndTools.name}
+              {links.myServices.name}
             </Link>
           </SheetClose>
           <SheetClose asChild>
@@ -80,6 +80,20 @@ export function NavigationMobile({
               )}
             >
               {links.workingWithMe.name}
+            </Link>
+          </SheetClose>
+          <SheetClose asChild>
+            <Link
+              href={links.projectsAndTools.path}
+              className={cn(
+                buttonVariants({
+                  variant: isActive(links.projectsAndTools.path)
+                    ? "secondary"
+                    : "ghost",
+                })
+              )}
+            >
+              {links.projectsAndTools.name}
             </Link>
           </SheetClose>
           <SheetClose asChild>

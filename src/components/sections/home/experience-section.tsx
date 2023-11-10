@@ -26,21 +26,16 @@ export function ExperienceSection() {
           using search engine optimization techniques to increase the visibility
           of your website and attract more traffic to your business. Whether you
           require consulting or freelance web development services, I can
-          deliver outstanding results tailored to your specific needs. Contact
-          me today to discuss your web development requirements and let&apos;s
-          make your online presence shine.
-        </p>
-        <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-8">
-          Read more about how we can collaborate on your next project.
+          deliver outstanding results tailored to your specific needs.
         </p>
         <Link
           className={cn(
             buttonVariants({ variant: "outline" }),
             "gap-4 self-start"
           )}
-          href={links.workingWithMe.path}
+          href={links.myServices.path}
         >
-          {links.workingWithMe.name}
+          Read More
           <ArrowRight />
         </Link>
       </div>

@@ -13,6 +13,10 @@ export const links = {
     path: "/contact",
     name: "Contact",
   },
+  myServices: {
+    path: "/my-services",
+    name: "My Services",
+  },
   projectsAndTools: {
     path: "/projects-and-tools",
     name: "Projects & Tools",

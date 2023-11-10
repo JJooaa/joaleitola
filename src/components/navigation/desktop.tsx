@@ -35,15 +35,14 @@ export function NavigationDesktop({
             {links.home.name}
           </NavigationMenuItem>
         </Link>
-        <Link href={links.projectsAndTools.path} legacyBehavior passHref>
+        <Link href={links.myServices.path} legacyBehavior passHref>
           <NavigationMenuItem
             className={cn(
               navigationMenuTriggerStyle(),
-              isActive(links.projectsAndTools.path) &&
-                "bg-secondary text-primary "
+              isActive(links.myServices.path) && "bg-secondary text-primary "
             )}
           >
-            {links.projectsAndTools.name}
+            {links.myServices.name}
           </NavigationMenuItem>
         </Link>
         <Link href={links.workingWithMe.path} legacyBehavior passHref>
@@ -56,7 +55,17 @@ export function NavigationDesktop({
             {links.workingWithMe.name}
           </NavigationMenuItem>
         </Link>
-
+        <Link href={links.projectsAndTools.path} legacyBehavior passHref>
+          <NavigationMenuItem
+            className={cn(
+              navigationMenuTriggerStyle(),
+              isActive(links.projectsAndTools.path) &&
+                "bg-secondary text-primary "
+            )}
+          >
+            {links.projectsAndTools.name}
+          </NavigationMenuItem>
+        </Link>
         <Link href={links.contact.path} legacyBehavior passHref>
           <NavigationMenuItem
             className={cn(
