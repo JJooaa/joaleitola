@@ -1,40 +1,80 @@
-import { buttonVariants } from "@/components/ui/button"
-import { links } from "@/lib/consts"
-import { cn } from "@/lib/utils"
+import {
+  Building2,
+  Github,
+  Linkedin,
+  Mail,
+  PhoneCall,
+  Twitter,
+} from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 export function HeroSection() {
   return (
-    <section
-      id="hero"
-      className="border-b-2 pb-8 pt-6 md:container md:pb-12 md:pt-12 lg:py-32"
-    >
-      <div className="flex max-w-[64rem] flex-col items-center gap-4 text-center md:container">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-          Joa Leitola <br /> Full Stack Web Developer
+    <div className="space-y-6">
+      <div className="flex items-center gap-4">
+        <Image
+          src="/joa_kuva.jpg"
+          width={65}
+          height={65}
+          className="rounded-full shadow-md"
+          alt="Joa Leitola"
+        />
+        <h1 className="text-2xl font-normal leading-tight tracking-tighter">
+          Joa Leitola <br />
+          Full Stack Web Developer
         </h1>
-        <p className="max-w-[50rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Whether you&apos;re looking for a freelance web developer, seeking
-          expert consulting on web development projects, or need a reliable
-          partner for your software needs, you&apos;re in the right place. I
-          specialize in web development technologies like React.js, Next.js,
-          TypeScript and the ecosystem around them.
-        </p>
-        <div className="flex flex-wrap-reverse justify-center gap-2">
-          <Link
-            className={cn(buttonVariants({ variant: "default" }), "px-6")}
-            href={links.contact.path}
-          >
-            {links.contact.name}
-          </Link>
-          <Link
-            className={cn(buttonVariants({ variant: "secondary" }), "px-6")}
-            href="#crafting-digital-experiences"
-          >
-            What To Expect?
-          </Link>
-        </div>
       </div>
-    </section>
+      <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
+        <Link
+          className="flex items-center gap-2 text-sm"
+          href="https://sisuvideo.fi"
+          target="_blank"
+        >
+          <Building2 strokeWidth={1.5} className="h-4 w-4 text-foreground" />
+          Sisu Video Oy
+        </Link>
+        <Link
+          target="_blank"
+          href="mailto:leitola.joa@gmail.com"
+          className="flex items-center gap-2 text-sm"
+        >
+          <Mail strokeWidth={1.5} className="h-4 w-4 text-foreground" />
+          leitola.joa@gmail.com
+        </Link>
+        <Link
+          href="tel:+358400232551"
+          className="flex items-center gap-2 text-sm"
+          target="_blank"
+        >
+          <PhoneCall strokeWidth={1.5} className="h-4 w-4 text-foreground" />
+          +358 400232551
+        </Link>
+        <Link
+          href="https://github.com/jjooaa"
+          className="flex items-center gap-2 text-sm"
+          target="_blank"
+        >
+          <Github strokeWidth={1.5} className="h-4 w-4 text-foreground" />
+          JJooaa
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/joa-leitola-478515212/"
+          className="flex items-center gap-2 text-sm"
+        >
+          <Linkedin strokeWidth={1.5} className="h-4 w-4 text-foreground" />
+          Joa Leitola
+        </Link>
+        <Link
+          target="_blank"
+          href="https://twitter.com/JoaLeitola"
+          className="flex items-center gap-2 text-sm"
+        >
+          <Twitter strokeWidth={1.5} className="h-4 w-4 text-foreground" />
+          @JoaLeitola
+        </Link>
+      </div>
+    </div>
   )
 }

@@ -6,6 +6,8 @@ import { ThemeProvider } from "@/components/theme/theme-provider"
 import { Analytics } from "@vercel/analytics/react"
 import Navigation from "@/components/navigation/navigation"
 import { baseUrl } from "@/lib/baseUrl"
+import { GeistSans } from "geist/font/sans"
+import { GeistMono } from "geist/font/mono"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -82,18 +84,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body
-        className={cn("bg-background p-4 antialiased md:p-8", inter.className)}
+        className={cn(
+          "mx-auto max-w-3xl p-4 tracking-tight antialiased md:p-8",
+          GeistSans.className
+        )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Navigation />
-          {children}
-          <Analytics />
-        </ThemeProvider>
+        <main className="my-12">{children}</main>
+        <Analytics />
       </body>
     </html>
   )
