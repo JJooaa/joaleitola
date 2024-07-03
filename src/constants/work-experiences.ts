@@ -3,6 +3,7 @@ export const workExperienceList = [
     title: "CEO | Founder",
     company: "Sisu Video Oy",
     dateRange: "2024 - Present",
+    description: "",
     listItems: [
       "Founded a company that boosts business sales by using video instead of text for customer communication.",
       "Created an embeddable video streaming app from scratch, increasing conversion rates by 200%.",
@@ -16,6 +17,7 @@ export const workExperienceList = [
     title: "Full Stack Software Developer",
     company: "Vertics Oy",
     dateRange: "2022 - Present",
+    description: "",
     listItems: [
       "Led the development and maintenance of web applications for various clients.",
       "Worked on 6 different projects, each with different tools and technologies.",
@@ -31,6 +33,7 @@ export const workExperienceList = [
     title: "Assistant Teacher for Web Development",
     company: "Digitalents Academy",
     dateRange: "2021 - 2022",
+    description: "",
     listItems: [
       "Taught and assisted 18-29 year olds in learning web development skills.",
       "Instructed students in languages including HTML, CSS, JS, and React.",
@@ -44,6 +47,7 @@ export const workExperienceList = [
     title: "Web Developer Internship",
     company: "Digitalents Academy",
     dateRange: "2021 - 2021",
+    description: "",
     listItems: [
       "Learned and grew as a web developer in a supportive environment.",
       "Learned and applied technologies like HTML, CSS, JavaScript, and React.",
