@@ -1,13 +1,11 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import "../styles/globals.css"
 import { cn } from "@/lib/utils"
 import { Analytics } from "@vercel/analytics/react"
-import { baseUrl } from "@/lib/baseUrl"
 import { GeistSans } from "geist/font/sans"
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
+  metadataBase: new URL(process.env.BASE_URL!),
   title: {
     template: "%s | Joa Leitola",
     default: "Joa Leitola",
@@ -50,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: baseUrl,
+    url: process.env.BASE_URL,
     title: "Joa Leitola - Software Development Services",
     description:
       "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
@@ -61,7 +59,7 @@ export const metadata: Metadata = {
     title: "Joa Leitola - Software Development Services",
     description:
       "Joa Leitola offers consulting and software development services. I build websites and web applications. I'm based in Helsinki, Finland.",
-    images: [`${baseUrl}/og.png`],
+    images: [`${process.env.BASE_URL}/og.png`],
     creator: "@joaleitola",
   },
   applicationName: "Joa Leitola - Software Development Services",
@@ -80,11 +78,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body
         className={cn(
-          "mx-auto max-w-3xl p-4 tracking-tight antialiased md:p-8",
+          "mx-auto max-w-3xl tracking-tight antialiased",
           GeistSans.className
         )}
       >
-        <main className="my-12">{children}</main>
+        {children}
         <Analytics />
       </body>
     </html>
