@@ -5,11 +5,8 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { featureList } from "@/constants/features"
-import { type LucideIcon } from "lucide-react"
 
-type FeatureCardProps = {
-  icon: LucideIcon
-} & (typeof featureList)[0]
+type FeatureCardProps = (typeof featureList)[0]
 
 export function FeatureCard(props: FeatureCardProps) {
   const { icon, title, description } = props

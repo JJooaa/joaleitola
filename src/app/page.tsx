@@ -5,14 +5,14 @@ import { projectList } from "@/constants/projects"
 import { ProjectCard } from "@/components/project-card"
 import { technologyList } from "@/constants/technologies"
 import { Badge } from "@/components/ui/badge"
-import { Links } from "@/components/links"
 import { FeatureCard } from "@/components/feature-card"
 import { featureList } from "@/constants/features"
 import { workExperienceList } from "@/constants/work-experiences"
 import { WorkExperienceCard } from "@/components/work-experience-card"
+import { links } from "@/constants/links"
+import { CustomLink } from "@/components/custom-link"
 
 export default async function Home() {
-  // await new Promise((r) => setTimeout(r, 5000))
   return (
     <main className="my-12 p-4 md:p-8">
       <div className="space-y-6">
@@ -29,15 +29,19 @@ export default async function Home() {
             Full Stack Web Developer
           </h1>
         </div>
-        <Links />
+        <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
+          {links.map((link) => (
+            <CustomLink key={link.text} {...link} />
+          ))}
+        </div>
       </div>
 
       {/* --------- About me, pros, selling points --------- */}
       <div className="mt-8 space-y-4">
         <h3 className="text-xl font-normal">Fast website, happy customer.</h3>
         <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
-          {featureList.map((item) => (
-            <FeatureCard key={item.title} {...item} />
+          {featureList.map((feature) => (
+            <FeatureCard key={feature.title} {...feature} />
           ))}
         </div>
         <p className="text-sm text-muted-foreground">
