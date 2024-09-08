@@ -24,7 +24,7 @@ export default async function Home() {
             className="rounded-full"
             alt="Joa Leitola"
           />
-          <h1 className="text-2xl font-normal leading-tight tracking-tighter">
+          <h1 className="text-2xl font-normal leading-tight">
             Joa Leitola <br />
             Full Stack Web Developer
           </h1>

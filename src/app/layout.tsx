@@ -77,10 +77,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body
-        className={cn(
-          "mx-auto max-w-3xl tracking-tight antialiased",
-          GeistSans.className
-        )}
+        className={cn("mx-auto max-w-3xl antialiased", GeistSans.className)}
       >
         {children}
         <Analytics />
