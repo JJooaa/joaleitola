@@ -1,6 +1,6 @@
 export const projectList = [
   {
-    title: "Nooon Life App",
+    title: "nooon.life App",
     description:
       "Oversaw the entire development process as lead developer. Managed a team of three, including mentoring an intern. Handled client communication, code architecture planning, task assignment, code reviews and coding. Balanced multiple responsibilities to deliver the project successfully.",
     technologies: [
