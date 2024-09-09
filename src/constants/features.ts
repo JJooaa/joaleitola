@@ -5,7 +5,7 @@ export const featureList = [
     title: "Quality & Speed",
     icon: StarIcon,
     description:
-      "I aim to create efficient websites with good SEO for better user experiences.",
+      "I focus on creating efficient, fast-loading websites that provide a great user experience.",
   },
   {
     title: "Modern Technologies",

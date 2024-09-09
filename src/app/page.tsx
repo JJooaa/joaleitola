@@ -44,7 +44,7 @@ export default async function Home() {
             <FeatureCard key={feature.title} {...feature} />
           ))}
         </div>
-        <p className="text-sm text-muted-foreground">
+        {/* <p className="text-sm text-muted-foreground">
           Milliseconds can make millions, and I optimize your site for top
           performance.
           <Link
@@ -55,7 +55,7 @@ export default async function Home() {
             <ArrowRightIcon className="h-4 w-4" />
             Milliseconds make millions.
           </Link>
-        </p>
+        </p> */}
       </div>
 
       {/* ---------  Work History / Experience --------- */}
