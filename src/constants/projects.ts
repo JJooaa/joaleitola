@@ -37,7 +37,7 @@ export const projectList = [
   {
     title: "Automotive App",
     description:
-      "Led development of a popular automotive platform. Worked on payments (Paytrail), precise calculations, Hubspot integration, and a UI update. Improved the platform's features and user experience.",
+      "Responsible for development of a popular automotive platform. Worked on payments (Paytrail), precise calculations, Hubspot integration, and a UI update. Improved the platform's features and user experience.",
     technologies: [
       "React.js",
       "Next.js",
