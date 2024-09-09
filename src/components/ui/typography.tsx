@@ -9,10 +9,7 @@ export const Typography1 = ({
 }) => {
   return (
     <h1
-      className={cn(
-        "scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl",
-        styles
-      )}
+      className={cn("scroll-m-20 text-4xl font-extrabold lg:text-5xl", styles)}
     >
       {children}
     </h1>
@@ -21,18 +18,14 @@ export const Typography1 = ({
 
 export const Typography2 = ({ children }: { children: React.ReactNode }) => {
   return (
-    <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+    <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold transition-colors first:mt-0">
       {children}
     </h2>
   )
 }
 
 export const Typography3 = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-      {children}
-    </h3>
-  )
+  return <h3 className="mt-8 scroll-m-20 text-2xl font-semibold">{children}</h3>
 }
 
 export const TypographyP = ({ children }: { children: React.ReactNode }) => {

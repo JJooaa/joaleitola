@@ -5,25 +5,24 @@ export const featureList = [
     title: "Quality & Speed",
     icon: StarIcon,
     description:
-      "I make fast websites with great SEO for the best customer experience.",
+      "I focus on creating efficient, fast-loading websites that provide a great user experience.",
   },
   {
     title: "Modern Technologies",
     icon: Code2Icon,
     description:
-      "I use the latest technologies like React and Next.js to build fast and strong applications.",
+      "I work with modern tools like React and Next.js to create robust web applications.",
   },
   {
     title: "Experienced Consultant",
     icon: UserIcon,
     description:
-      "I have years of consulting experience and currently working at Vertics.",
+      "I've had the opportunity to work as a consultant for several years at Vertics.",
   },
   // Or extremely ambitous -> Desire to be the best. something something something...
   {
-    title: "Entrepreneur",
+    title: "Team Player",
     icon: HeartHandshakeIcon,
-    description:
-      "I love building new and impactful products as an entrepreneur.",
+    description: "I try my best to support the team and contribute positively.",
   },
 ]

@@ -23,4 +23,8 @@ export const technologyList = [
   "GitHub",
   "Bitbucket",
   "Expo",
+  "Postmark",
+  "React Email",
+  "Zod",
+  "React Query",
 ]
