@@ -27,4 +27,7 @@ export const technologyList = [
   "React Email",
   "Zod",
   "React Query",
+  "Vue.js",
+  "Javascript",
+  "Apollo GraphQL"
 ]
