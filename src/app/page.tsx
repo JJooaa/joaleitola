@@ -1,6 +1,4 @@
 import Image from "next/image"
-import { ArrowRightIcon } from "lucide-react"
-import Link from "next/link"
 import { projectList } from "@/constants/projects"
 import { ProjectCard } from "@/components/project-card"
 import { technologyList } from "@/constants/technologies"
