@@ -60,8 +60,8 @@ export default async function Home() {
       <div className="mt-8 space-y-4">
         <h3 className="text-xl font-normal">Work experience.</h3>
         <div className="space-y-4">
-          {workExperienceList.map((item) => (
-            <WorkExperienceCard key={item.company} {...item} />
+          {workExperienceList.map((item, index) => (
+            <WorkExperienceCard key={item.company + index} {...item} />
           ))}
         </div>
       </div>

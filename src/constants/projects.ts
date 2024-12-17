@@ -13,6 +13,21 @@ export const projectList = [
     ],
   },
   {
+    title: "aipostgen.com",
+    description:
+    "Developed an AI-powered social media content generation platform for X (Twitter) that enables users to create viral, algorithm-optimized posts. The best part? AI strategies ensuring 100% AI undetectability. Implemented the ability for users to purchase tokens with Stripe.",
+    technologies: [
+      "Stripe",
+      "Next.js",
+      "AI SDK",
+      "Clerk",
+      "TailwindCSS",
+      "Neon PostgreSQL",
+      "Vercel",
+      "xAI",
+    ],
+  },
+  {
     title: "Construction Management App",
     description:
       "Built a multiplatform app for managing construction sites from scratch. Used a monorepo to share code between apps. Delivered a high-quality solution efficiently, resulting in a satisfied customer.",

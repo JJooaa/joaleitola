@@ -14,7 +14,6 @@ export const technologyList = [
   "React Native",
   "MaterialUI",
   "ShadcnUI",
-  "Expo",
   "tRPC",
   "Supabase",
   "NativeWind",
