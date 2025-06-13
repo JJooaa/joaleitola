@@ -1,5 +1,18 @@
 export const projectList = [
   {
+    title: "XR Marketplace",
+    description:
+      "Built a custom XR course marketplace platform from scratch for a client. Users can sell and buy immersive VR/AR courses. Handled Stripe integration and implemented separate flows for learners, course providers, and internal admins.",
+    technologies: [
+      "Next.js",
+      "TailwindCSS",
+      "Supabase",
+      "Vercel",
+      "Prisma",
+      "Stripe",
+    ],
+  },
+  {
     title: "nooon.life App",
     description:
       "Oversaw the entire development process as lead developer. Managed a team of three, including mentoring an intern. Handled client communication, code architecture planning, task assignment, code reviews and coding. Balanced multiple responsibilities to deliver the project successfully.",
@@ -15,7 +28,7 @@ export const projectList = [
   {
     title: "aipostgen.com",
     description:
-    "Developed an AI-powered social media content generation platform for X (Twitter) that enables users to create viral, algorithm-optimized posts. The best part? AI strategies ensuring 100% AI undetectability. Implemented the ability for users to purchase tokens with Stripe.",
+      "Developed an AI-powered social media content generation platform for X (Twitter) that enables users to create viral, algorithm-optimized posts. The best part? AI strategies ensuring 100% AI undetectability. Implemented the ability for users to purchase tokens with Stripe.",
     technologies: [
       "Stripe",
       "Next.js",
